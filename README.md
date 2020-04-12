@@ -1,5 +1,5 @@
 # bampli
 
-![github pages](https://github.com/bampli/doc/workflows/github%20pages/badge.svg)
+![github pages](https://github.com/bampli/docs/workflows/github%20pages/badge.svg)
 
-bAmpli doc
+bAmpli docs
