@@ -1,0 +1,4 @@
+baseURL = "https://bampli.github.io/bampli/"
+languageCode = "en-us"
+title = "bAmpli"
+theme = "book"
