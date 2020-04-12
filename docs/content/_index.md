@@ -9,7 +9,7 @@ bookToc: false
 {{< columns >}}
 ## What to change?
 
-The decision-making of all companies has been solely based on **conflict management**. This problem starts with the structure of organizations, where  information and decision flow through a hierarchical **pyramid structure**.
+The decision-making of all companies has been solely based on **conflict management**. The problem starts with the structure of organizations, where  information and decision flow through a hierarchical **pyramid structure**.
 
 ![X 9 2 manager](https://user-images.githubusercontent.com/86032/79045595-54938200-7be2-11ea-94c5-375d57f7ec1d.png)
 
