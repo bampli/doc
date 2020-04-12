@@ -49,7 +49,7 @@ This project presents **Ampli Business**, an information system organized in lay
 {{< /columns >}}
 
 {{< hint info >}}
-The Cyclo adds a new rule to the Deming’s process specification: **The process is a closed loop that consumes product from nature and transforms them into other products of nature**. Since  they are the main link of the production line, the consumers release the vital energy that generates demand. Then, products and money start to cycle in opposite directions, generating  the Gain that feeds bAmpli, the Business Amplifier. The cycling speed, or **Cyclo spin** is determined by the process constraint.
+The Cyclo adds a new rule to the Deming’s process specification: **The process is a closed loop that consumes product from nature and transforms them into other products of nature**. The market consumers, as the main link of the production line, release the vital energy that generates demand. Then, products and money start to cycle in opposite directions, generating  the Gain that feeds bAmpli, the Business Amplifier. The cycling speed, or **Cyclo spin** is determined by the process constraint.
 {{< /hint >}}
 
 {{< columns >}}
