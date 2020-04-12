@@ -1,2 +1,5 @@
-# doc
-bAMpli doc
+# bampli
+
+![github pages](https://github.com/bampli/bampli/workflows/github%20pages/badge.svg)
+
+bAmpli
