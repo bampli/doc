@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Ampli Business
 type: docs
 bookToc: false
 ---
@@ -7,6 +7,7 @@ bookToc: false
 # Ampli Business. It makes sense.
 
 {{< columns >}}
+
 ## What to change?
 
 The decision-making of all companies has been solely based on **conflict management**. The problem starts with the structure of organizations, where  information and decision flow through a hierarchical **pyramid structure**.
@@ -18,6 +19,8 @@ The weak point of this approach is that each manager is  solely responsible for 
 **THE SUM OF THE LOCAL OPTIMA ALMOST ALWAYS TAKES US AWAY FROM THE GLOBAL GREAT.**
 
 In the middle of pyramid, the managers compete with each other, trying to pursue their local best. As a result, distortions in information and decision geopardize the company. Higher the hierarchical pyramid, greater the risk of distortions.
+
+See more at [**The Conflict in the Pyramid**](/docs/posts/conflict-in-the-pyramid/).
 <--->
 
 ## To what to change?
@@ -75,6 +78,7 @@ Administration has "+" and "-" inputs, respectively for plan & reality feedback.
 {{< /hint >}}
 
 {{< columns >}}
+
 ## bAmpli Circuits
 
 Business Ampliers may be grouped to form **bAmpli Circuits**.
