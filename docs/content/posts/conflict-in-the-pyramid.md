@@ -42,7 +42,7 @@ Initials | Indicator | description
 --- | --- | ---
 Din | Decision Entry | Order received from boss
 Dout | Decision Out | Order transmitted to subordinates
-Iin | Information Entry | Information Received from Child
+Iin | Information Entry | Information received from process
 Iout | Information Output | Information transmitted to the boss
 
 From investor training and command at the top of the pyramid, managers must fulfill their role by guiding their subordinates in conducting the process. Similarly, managers should capture process information, analyze it and inform the investor of relevant facts. Note that each manager has access to the immediate adjacent levels in the pyramid structure, that is, their boss and their subordinates.
@@ -59,23 +59,23 @@ The diagram below shows in detail the flows of information, analysis, and decisi
 Initials | Indicator | description
 --- | --- | ---
 Ai | Information Analysis | Manager evaluates process operation
-Ad | Decision Analysis | Manager interprets company command decision
+Ad | Decision Analysis | Manager interprets command decision
 
 {{< /columns >}}
 
-- The green arrows represent the path taken by the information. The subordinates cause the information originated in the process to be propagated through the pyramid until it reaches input Iin. It is the manager's responsibility to perform the Ai analysis of the information received before passing it on to his immediate boss through the Iout exit. Accordingly, the information is expected to follow its path towards the investor, located at the top of the pyramid.
-- The orange arrows express the Investor's command to be propagated through the pyramid structure until it reaches the process. Thus, decisions made at the upper echelons of the company are expected to result in immediate management orders received at Din. The manager must perform the Ad analysis and generate a set of Dout decisions for their subordinates, following company determinations.
-- The yellow arrows reflect audits performed by good managers. By reporting Iout information to the immediate boss, the manager may anticipate a future investor Din decision. Likewise, after triggering a Dout decision that affects the process, a future reflection on the Iin entry that consolidates the change is expected.
+- The green arrows represent the path taken by the information. The subordinates cause the information originated in the process to be propagated through the pyramid until it reaches input **Iin**. It is the manager's responsibility to perform the **Ai** analysis of the information received before passing it on to his immediate boss through the **Iout** exit. Accordingly, the information is expected to follow its path towards the investor, located at the top of the pyramid.
+- The orange arrows express the Investor's command to be propagated through the pyramid structure until it reaches the process. Thus, decisions made at the upper echelons of the company are expected to result in immediate management orders received at **Din**. The manager must perform the **Ad** analysis and generate a set of **Dout** decisions for their subordinates, following company determinations.
+- The yellow arrows reflect audits performed by good managers. By reporting **Iout** information to the immediate boss, the manager may anticipate a future investor **Din** decision. Likewise, after triggering a **Dout** decision that affects the process, a future reflection on the **Iin** entry that consolidates the change is expected.
 
-## The pyramid distorts information and decisions
+## The pyramid distorts info & decisions
 
 Undoubtedly, the hierarchical pyramid solves the investor's problem of increasing control over the process. But at what cost? See in the example below that a three-level pyramid requires information and decisions to pass through three managers to reach the investor and the process respectively.
 
 ![X 9 4 distortion](https://user-images.githubusercontent.com/86032/79128964-bf77c100-7d7a-11ea-93d7-6966c1fd822f.png)
 
-Consider the investor passing on to his first echelon a decision D that should be directed to the process. At the same time, information I is captured at the lowest level of the pyramid near the process. In the small startup where the investor does everything, there is no distortion in decision and information, the contact is direct.
+Consider the investor passing on to his first echelon a decision **D** that should be directed to the process. At the same time, information **I** is captured at the lowest level of the pyramid near the process. In the small startup where the investor does everything, there is no distortion in decision and information, the contact is direct.
 
-In the hierarchical manager structure, only level 1 managers receive the "pure" investor decision D. They will then analyze and relay the D1out decision to the second level, taking into account the interpretation of how the D decision should be implemented by their subordinates. See below the equation as it looks:
+In the hierarchical manager structure, only level 1 managers receive the "pure" investor decision **D**. They will then analyze and relay the **D1out** decision to the second level, taking into account the interpretation of how the **D** decision should be implemented by their subordinates. See below the equation as it looks:
 
 **D1out** = **D1in. A1d** = **D. A1d** = **D2in**
 
@@ -83,7 +83,7 @@ Repeating the reasoning for a hierarchical structure of managers with n levels, 
 
 **D-Process** = **D-Investor** . **A1d** . **A2d** . **A3d** ... **And**
 
-Similarly, "pure" information is captured by the third-tier manager. It performs A3i information analysis and transmits the resulting information to its boss's I2in input at level 2:
+Similarly, "pure" information is captured by the third-tier manager. It performs **A3i** information analysis and transmits the resulting information to its boss's **I2in** input at level 2:
 
 **I3out** = **I3in. A3i** = **I. A3i** = **I2in**
 
@@ -91,7 +91,7 @@ Considering the analyzes propagated by the managers of each level, the informati
 
 **I-Investor** = **I-Process** . **A1i** . **A2i** . **A3i** ... **Ani**
 
-Then, there are interferences in decisions and information, represented by A1d, A2d, ..., And and A1i, A2i, ..., Ani, respectively the decision and information analysis that have been applied by managers, at their respective pyramid levels.
+Then, there are interferences in decisions and information, represented by **A1d**, **A2d**, ..., **And** and **A1i**, **A2i**, ..., **Ani**, respectively the decision and information analysis that have been applied by managers, at their respective pyramid levels.
 
 Distortions in information and decisions are proportional to the number of levels in the hierarchical pyramid. Higher the pyramid, greater the likelihood that information and decisions will be distorted.
 
@@ -102,11 +102,15 @@ Apparently there is a conflict in the hierarchical structure of managers:
 - The pyramid extends command and information capture between the investor and the process. To enlarge, one must **add** levels to the pyramid;
 - The pyramid distorts information and decisions that circulate between the investor and the process. To avoid, **reduce** the levels of the pyramid.
 
-The following diagram shows the details of the conflict in the hierarchical manager pyramid. For the investor to be successful with the process, it is necessary to increase control as well as to avoid distortions in information and decisions. Both are fundamental requirements for the intended success.
+### The conflict diagram
+
+There is a template commonly used for conflict analysis, known by the **cloud evaporating method**. The name suggests that the dark clouds that float above your head just evaporate magically. Let's apply it to the hierarchical manager pyramid and analyse its parts.
 
 ![X 9 5 conflict](https://user-images.githubusercontent.com/86032/79128977-c69ecf00-7d7a-11ea-8a8a-e1a1154220ba.png)
 
-## Conflict Analysis
+For the investor to be successful with the process, it is necessary to increase control as well as to avoid distortions in information and decisions. Both are fundamental requirements for the intended success.
+
+### Conflict Analysis
 
 By analyzing the diagram components individually:
 
