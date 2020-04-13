@@ -91,9 +91,9 @@ Considering the analyzes propagated by the managers of each level, the informati
 
 **I-Investor** = **I-Process** . **A1i** . **A2i** . **A3i** ... **Ani**
 
-where A1x, A2x, ..., Anx represent decision (d) and information (i) analysis that have been applied by managers of their respective levels.
+Then, there are interferences in decisions and information, represented by A1d, A2d, ..., And and A1i, A2i, ..., Ani, respectively the decision and information analysis that have been applied by managers, at their respective pyramid levels.
 
-It is concluded that there are variations in information and decisions within the pyramid. Distortions in information and decisions are proportional to the number of levels in the hierarchical pyramid. The higher the pyramid, the greater the likelihood that information and decisions will be distorted.
+Distortions in information and decisions are proportional to the number of levels in the hierarchical pyramid. Higher the pyramid, greater the likelihood that information and decisions will be distorted.
 
 ## The conflict in the pyramid
 
@@ -136,7 +136,7 @@ Every 30 years, since the 1920s, there have been major changes in the measures t
 
 ![X 9 6 measures](https://user-images.githubusercontent.com/86032/79129028-dd452600-7d7a-11ea-9eab-491107d7fc51.png)
 
-Looking at the company's Profit formula, it can be seen that virtually all of its terms are costs, except for Product Sales. Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the # 1 rank since the 1920s. Cost savings were the most influential investors and managers around the world to drive Profit. However, the fundamentals of Cost Accounting have been shaken over time. Terms like "product profit margin" lost their meaning.
+Looking at the company's Net Profit formula, it can be seen that virtually all of its terms are costs, except for Product Sales. Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the # 1 rank since the 1920s. Cost savings were the most influential investors and managers around the world to drive Profit. However, the fundamentals of Cost Accounting have been shaken over time. Terms like "product profit margin" lost their meaning.
 
 The quality revolution, started by Deming in Japan in the 1950s, went against *Kaizen* , a concept of Japanese culture that other languages need two words to express: continuous improvement. In the 1970s, while Toyota was evolving *Just in Time* at full speed, Western companies still preferred to insist on Cost Accounting, seeking sophisticated correlations between fixed costs, products and the process. The Japanese opted for Return on Investment as measure # 1, highlighting the difference between Eastern and Western decision-support philosophies. The result was the Japanese buying New York in the 80s.
 
@@ -165,7 +165,7 @@ Just looking at the following bAmpli Circuit below with 4 Cyclos, it is known th
 
 ![Y5 2 diagrama cyclos P Q bw](https://user-images.githubusercontent.com/86032/79129909-6872eb80-7d7c-11ea-9f6d-10f387129bb1.png)
 
-This 4-Cyclos bAmpli Circuit expects to make a profit to be returned to its investor, ie the green “+” at the top left of the circuit.
+This 4-Cyclos bAmpli Circuit expects to make a profit to be returned to its investor, i.e. the green “+” at the top left of the circuit.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
