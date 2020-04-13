@@ -13,7 +13,7 @@ tags: [
     "what-to-change",
 ]
 ---
-An individual with certain skill and resources creates a small business. Applying his knowledge, he elaborates a process that transforms market-acquired raw materials into products he intends to sell. In the beginning, he is the do-everything. Buy, produce, sell, invoice, pay and receive. Market acceptance is good and sales grow rapidly, driven by word of mouth from satisfied customers.
+An individual with certain skills and resources creates a small business. Applying his knowledge, he elaborates a process that transforms market-acquired raw materials into products he intends to sell. In the beginning, he is the do-everything. Buy, produce, sell, invoice, pay and receive. Market acceptance is good and sales grow rapidly, driven by word of mouth from satisfied customers.
 
 The diagram below represents this stage of business, where the investor is very close to everything and everyone. It captures information directly from the process and makes virtually instant decisions, streamlining business operations. Free of distortions in information and decisions, the business proceeds from the stern.
 
