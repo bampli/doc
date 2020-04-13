@@ -60,9 +60,9 @@ The Cyclo adds a new rule to the Deming’s process specification: **The process
 
 The process hasn't a single time and done behavior. The operations repeats endlessly for each product! Assets always enter a step, are processed for some time and follow to the next step. All steps work simultaneously, like a n-stroke engine.
 
-At the top, Earth's first arrow to “Sn” indicates the money from the consumer market that pays for Product Sales (PS). This money is used to pay the Raw Materials (RM) used in the process steps. The remaining balance is the Gain (G) which contributes to company's net profit.
+At the top, Earth's first green arrow to “Sn” indicates the money from the consumer market that pays for Product Sales (PS). This money is used to pay the Raw Materials (RM) used in the process steps. The remaining balance is the Gain (G) which contributes to company's net profit.
 
-On the other hand, the outer arrows leaving Earth to "S1" represent assets traversing the path in the opposite direction. Raw materials are purchased, enter into the process, and become products that the company intends to sell.
+On the other hand, the outer blue arrows leaving Earth to "S1" represent assets traversing the path in the opposite direction. Raw materials are purchased, enter into the process, and become products that the company intends to sell.
 
 <--->
 ![Y3 3 bampli Lucro bw](https://user-images.githubusercontent.com/86032/79046226-0aac9b00-7be6-11ea-9664-d33b7c5b99cd.png)
