@@ -124,15 +124,15 @@ For example, increased investor control and the absence of misstatements in mana
 
 Another strong arrow is that of conflict itself, as you cannot raise and lower levels at the same time. That leaves two arrows to analyze:
 
-- increase levels to extend control
+- increase levels to expand control
 - lower levels to avoid distortion
 
 Which is the weak point of the conflict? To answer that, ask yourself:
 
 - Can you extend control without increasing pyramid levels? Difficult, given the human limitation.
-- How to avoid distortions in information and decisions without lowering the levels of the pyramid? What if there was a measure that would guide managers?
+- How to avoid distortions in information and decisions without lowering the levels of the pyramid? What if there was a **measure** that would guide managers?
 
-The conclusion is that the solution to the conflict in the hierarchical pyramid is to find the right measure to help investors and managers avoid distortions in their decisions and in the analysis of process information.
+The conclusion is that the solution to the conflict in the hierarchical pyramid is to **find the right measure** to help investors and managers, avoiding distortions in their decisions and in the analysis of process information.
 
 ## Measures evolution
 
@@ -142,9 +142,9 @@ Every 30 years, since the 1920s, there have been major changes in the measures t
 
 Looking at the company's Net Profit formula, it can be seen that virtually all of its terms are costs, except for Product Sales. Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the # 1 rank since the 1920s. Cost savings were the most influential investors and managers around the world to drive Profit. However, the fundamentals of Cost Accounting have been shaken over time. Terms like "product profit margin" lost their meaning.
 
-The quality revolution, started by Deming in Japan in the 1950s, went against *Kaizen* , a concept of Japanese culture that other languages need two words to express: continuous improvement. In the 1970s, while Toyota was evolving *Just in Time* at full speed, Western companies still preferred to insist on Cost Accounting, seeking sophisticated correlations between fixed costs, products and the process. The Japanese opted for Return on Investment as measure # 1, highlighting the difference between Eastern and Western decision-support philosophies. The result was the Japanese buying New York in the 80s.
+The quality revolution, started by Deming in Japan in the 1950s, went against *Kaizen* , a concept of Japanese culture that other languages need two words to express: continuous improvement. In the 1970s, while Toyota was evolving *Just in Time* at full speed, Western companies still preferred to insist on Cost Accounting, seeking sophisticated correlations between fixed costs, products and the process. The Japanese opted for Return on Investment as measure # 1, highlighting the difference between Eastern and Western decision-support philosophies. The result was the Japanese buying New York in the 80's.
 
-"Tell me how you measure me I'll tell you how I behave." This phrase by Israeli physicist Eli Goldratt, creator of Theory of Constraints, stressed the importance of choosing the right measure to guide investors and managers. He turned the game on Westerners after promoting Gain to Measure # 1.
+"**Tell me how you measure me, and I'll tell you how I will behave.**" This phrase by Israeli physicist Eli Goldratt, creator of Theory of Constraints, stressed the importance of choosing the right measure to guide investors and managers. He turned the game on Westerners after promoting Gain to Measure # 1.
 
 He used the Net Profit formula to convince everyone that managing the cost world was very information-dependent. All terms are costs, he exaggerated. What expense to cut if everything is important? We are drowning in a sea of data, complaining about the lack of information!
 
