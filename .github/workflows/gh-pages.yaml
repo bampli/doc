@@ -25,5 +25,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          #github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/public
+          deploy_key: ${{ secrets.ghpages }}
+          external_repository: bampli/bampli.github.io
+          publish_branch: master
