@@ -15,6 +15,8 @@ tags: [
 ---
 Inspired on Goldratt's indicators for the Theory of Constraints, the Financial Indicators are listed below. The simplicity of the equations is vital to their general acceptance and understanding. This is the basic financial information that companies of any type and size should maintain.
 
+## Financial Indicators
+
 Initials | Indicator | Description
 --- | :--- | :---
 RI | Return on Investment | Equals Net Profit divided by Investment.
