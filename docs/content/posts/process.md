@@ -23,7 +23,7 @@ The following rules establish the **Process** specification.
 
 **Stage 1** ► **Stage 2** ► ... ► **Consumer**
 
-1. The process is divided into Stages;
+1. The Process is divided into Stages;
 2. The work enters a Stage, changes state, and proceeds with the next Stage as a client;
 3. At each Stage there is production, that is, something happens in the set of assets that enter a Stage, causing their exit in a different state;
 4. Each Stage incorporates continual improvement of methods and procedures to meet subsequent Stages;
