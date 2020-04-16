@@ -13,7 +13,7 @@ tags: [
     "to-what-to-change",
 ]
 ---
-TPM consists of a systematic program for enterprise development and implementation that addresses maintenance by optimizing equipment effectiveness. TPM consolidates failures and waste into a creative approach, using **time** as a common link.
+TPM consists of a systematic program for enterprise development that addresses maintenance by optimizing equipment effectiveness. TPM consolidates failures and waste into a creative approach, using **time** as a common link.
 
 Thus, Working Time is defined as the total journey time that company works. From then on, we will be discounting the time spent on failures and waste, creating indexes that will selectively signal machine and equipment performance problems, operation failures and product defects.
 
