@@ -27,7 +27,7 @@ RM | Raw Material | It is the cash flow that remunerate suppliers.
 G | Gain | This is the rate at which the system generates money through sales. Equals revenue from Product Sales minus Raw Material expenses.
 WF | Workforce | Company expenses with Labor.
 OH | Overhead | Other fixed costs of the Company.
-OE | Operating Expense | It is all the money the system spend turning Inventory into Gain. It is the sum of the Workforce and  Overhead.
+OE | Operating Expense | It is all the money the system spends turning Inventory into Gain. It is the sum of the Workforce and Overhead.
 
 ## Formulas
 
