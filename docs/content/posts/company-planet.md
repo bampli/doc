@@ -61,11 +61,11 @@ Initials | Indicator | Description
 RI | Return on Investment | At initial version, RI is returned to Investors according to their Shares. This simple rule maybe extended in future versions.
 I | Investment | It is all the money that the Facility invests by buying things that will be converted into sales.
 NP | Net Profit | This is the Company NP, including all bAmpli Circuits involved.
-PS | Product Sales | It is the cash flow received from the sale of products from all existing Cyclos inside the Facility.
-RM | Raw Material | It is the cash flow that remunerate suppliers from all existing Cyclos inside the Facility.
+PS | Product Sales | It is the cash flow received from the sale of products from each existing Cyclo inside the Facility.
+RM | Raw Material | It is the cash flow that remunerate suppliers from each existing Cyclo inside the Facility.
 G | Gain | This is the rate at which the system generates money through sales. Equals revenue from Product Sales minus Raw Material expenses from each Cyclo inside the Facility.
-WF | Workforce | Company expenses with Labor, related to the Facility.
-OH | Overhead | Other fixed costs of the Company, also related to the Facility.
+WF | Workforce | Company expenses with Labor, related to all bAmpli Circuits that exist in the Facility.
+OH | Overhead | Other fixed costs of the Company, also related to all bAmpli Circuits that exist in the Facility.
 OE | Operating Expense | It is all the money the system spends turning Inventory into Gain. It is the sum of the Workforce and Overhead of the Facility.
 
 ## Formulas
