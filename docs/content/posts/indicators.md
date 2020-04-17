@@ -10,7 +10,7 @@ menu:
 title: The Financial Indicators
 weight: 30
 tags: [
-    "how-to-change",
+    "to-what-to-change",
 ]
 ---
 Inspired on Goldratt's indicators for the Theory of Constraints, the Financial Indicators are listed below. The simplicity of the equations is vital to their general acceptance and understanding. This is the basic financial information that companies of any type and size should maintain.
