@@ -146,7 +146,7 @@ Looking at the company's Net Profit formula below, it can be seen that virtually
 \end{aligned}
 {{< /katex >}}
 
-NP: Net Profit; PS: Product Sales; RM: Raw Material; WF: Workforce; OH:Overhead
+NP: Net Profit; PS: Product Sales; RM: Raw Material; WF: Workforce; OH: Overhead
 
 Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the #1 rank since the 1920s. Cost reduction was what most influenced investors and managers around the world to increase Net Profit. However, the fundamentals of Cost Accounting have been shaken over time and terms like "product profit margin" lost their meaning.
 
