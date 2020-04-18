@@ -27,14 +27,14 @@ The investor alters the process and distributes tasks like purchasing, productio
 
 ![X 9 2 manager](https://user-images.githubusercontent.com/86032/79128891-9fe09880-7d7a-11ea-9d08-5d75a456ca91.png)
 
-As the business grows, it needs to add more levels to the pyramid. Depending on the activities performed, this occurs when the human limit is reached, which usually sets a maximum of fifteen subordinates per person.
+As the business grows, it is necessary to add more levels to the pyramid. Depending on the activities performed, this occurs when the human limit is reached, which usually sets a maximum of fifteen subordinates per person.
 
 This structure has been widely employed by various types of organization throughout history. From armies to religions, the hierarchical pyramid is unanimous when it comes to management. Increasing the command power of the investor and managers requires them to relate to the next higher and lower levels. The main duties of managers are:
 
 - Receive and relay investor orders to command the process;
 - Capture process information to keep the investor updated.
 
-The investor's plan is that each manager has command power over the entire pyramid of subordinates below him. The investor also needs managers to be responsible for capturing and reporting the status of the process.
+The investor's strategy is that each manager has command power over the entire pyramid of subordinates below him. The investor also needs managers to be responsible for capturing and reporting the status of the process.
 
 Obviously, the company must continue to deal with the flow of information and decisions that circulate between the process and the investor. If this flow is interrupted, or even impaired, the company suffers serious risks. Therefore it is paramount that each pyramid manager is able to handle the two pairs of inputs and outputs listed below:
 
@@ -45,7 +45,7 @@ Dout | Decision Out | Order transmitted to subordinates
 Iin | Information Entry | Information received from process
 Iout | Information Output | Information transmitted to the boss
 
-From investor training and command at the top of the pyramid, managers must fulfill their role by guiding their subordinates in conducting the process. Similarly, managers should capture process information, analyze it and inform the investor of relevant facts. Note that each manager has access to the immediate adjacent levels in the pyramid structure, that is, their boss and their subordinates.
+From investor training and command at the top of the pyramid, managers must fulfill their role by guiding their subordinates in conducting the process. Similarly, managers should capture process information, analyze it and inform the investor of relevant facts. Note that each manager has access to the immediate adjacent levels in the pyramid structure, that is, the boss and the subordinates.
 
 ## The manager cycle
 
@@ -63,7 +63,7 @@ Ad | Decision Analysis | Manager interprets command decision
 
 {{< /columns >}}
 
-- The green arrows represent the path taken by the information. The subordinates cause the information originated in the process to be propagated through the pyramid until it reaches input **Iin**. It is the manager's responsibility to perform the **Ai** analysis of the information received before passing it on to his immediate boss through the **Iout** exit. Accordingly, the information is expected to follow its path towards the investor, located at the top of the pyramid.
+- The green arrows represent the path taken by the information. The subordinates cause the information originated in the process to be propagated through the pyramid until it reaches input **Iin**. It is the manager's responsibility to perform the **Ai** analysis of the received information, before passing it on to his/her immediate boss through the **Iout** exit. Accordingly, the information is expected to follow its path towards the investor, located at the top of the pyramid.
 - The orange arrows express the Investor's command to be propagated through the pyramid structure until it reaches the process. Thus, decisions made at the upper echelons of the company are expected to result in immediate management orders received at **Din**. The manager must perform the **Ad** analysis and generate a set of **Dout** decisions for their subordinates, following company determinations.
 - The yellow arrows reflect audits performed by good managers. By reporting **Iout** information to the immediate boss, the manager may anticipate a future investor **Din** decision. Likewise, after triggering a **Dout** decision that affects the process, a future reflection on the **Iin** entry that consolidates the change is expected.
 
@@ -104,18 +104,16 @@ Apparently there is a conflict in the hierarchical structure of managers:
 
 ### The conflict diagram
 
-There is a template commonly used for conflict analysis, known by the **cloud evaporating method**. The name suggests that the dark clouds that float above your head just evaporate magically. Let's apply it to the hierarchical manager pyramid and analyse its parts.
+There is a template commonly used for conflict analysis, known by the **cloud evaporating method**. The name suggests that the dark clouds that float above your head just evaporate magically. Let's apply it to the hierarchical manager pyramid conflict and deeply analyse each one of its parts.
 
 ![X 9 5 conflict](https://user-images.githubusercontent.com/86032/79128977-c69ecf00-7d7a-11ea-8a8a-e1a1154220ba.png)
 
-For the investor to be successful with the process, it is necessary to increase control as well as to avoid distortions in information and decisions. Both are fundamental requirements for the intended success.
+### The conflict analysis
 
-### Conflict Analysis
+For the investor to be successful with the process, it is necessary to increase control as well as to avoid distortions in information and decisions. Both are fundamental requirements for the intended success. Analyzing remaining components individually:
 
-By analyzing the diagram components individually:
-
-- Increasing control has as a prerequisite increasing levels in the manager hierarchy. There is no reason to doubt it.
-- To avoid distortions of information and decisions, you should limit the height of the pyramid, ie have fewer levels.
+- Increasing control has as a prerequisite increasing levels in the manager hierarchy. There are no much reasons to doubt this, given the small business previous experience.
+- To avoid distortions of information and decisions, you should limit the height of the pyramid, i.e. have fewer levels.
 - One prerequisite is the opposite of the other, as indicated by the red arrow in the diagram.
 
 How to solve this dilemma? Would it be better to favor one side? Or displease them both and stand on the fence? Another option would be to go for a magical solution that pleases both sides and evaporates the conflict. Is it possible to identify the weak point of the conflict by looking carefully at each arrow in the diagram?
@@ -125,14 +123,14 @@ For example, increased investor control and the absence of misstatements in mana
 Another strong arrow is that of conflict itself, as you cannot raise and lower levels at the same time. That leaves two arrows to analyze:
 
 - increase levels to expand control
-- lower levels to avoid distortion
+- decrease levels to avoid distortions
 
-Which is the weak point of the conflict? To answer that, ask yourself:
+Which is the weakest point of the conflict? To answer that, ask yourself:
 
-- Can you extend control without increasing pyramid levels? Difficult, given the human limitation.
+- Can you extend control without increasing pyramid levels? Difficult, given the human limitations to manage more than fifteen subordinates.
 - How to avoid distortions in information and decisions without lowering the levels of the pyramid? What if there was a **measure** that would guide managers?
 
-The conclusion is that the solution to the conflict in the hierarchical pyramid is to **find the right measure** to help investors and managers, avoiding distortions in their decisions and in the analysis of process information.
+The solution of the conflict in the hierarchical pyramid is to **find the right measure** to help investors and managers to avoid distortions in their decisions and in the analysis of process information.
 
 ## Measures evolution
 
@@ -140,15 +138,25 @@ Every 30 years, since the 1920s, there have been major changes in the measures t
 
 ![X 9 6 measures](https://user-images.githubusercontent.com/86032/79129028-dd452600-7d7a-11ea-9eab-491107d7fc51.png)
 
-Looking at the company's Net Profit formula, it can be seen that virtually all of its terms are costs, except for Product Sales. Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the # 1 rank since the 1920s. Cost savings were the most influential investors and managers around the world to drive Profit. However, the fundamentals of Cost Accounting have been shaken over time. Terms like "product profit margin" lost their meaning.
+Looking at the company's Net Profit formula below, it can be seen that virtually all of its terms are costs, except for Product Sales.
 
-The quality revolution, started by Deming in Japan in the 1950s, went against *Kaizen* , a concept of Japanese culture that other languages need two words to express: continuous improvement. In the 1970s, while Toyota was evolving *Just in Time* at full speed, Western companies still preferred to insist on Cost Accounting, seeking sophisticated correlations between fixed costs, products and the process. The Japanese opted for Return on Investment as measure # 1, highlighting the difference between Eastern and Western decision-support philosophies. The result was the Japanese buying New York in the 80's.
+{{< katex >}}
+\begin{aligned}
+   NP&=(PS-RM)-(WF+OH) \\
+\end{aligned}
+{{< /katex >}}
 
-"**Tell me how you measure me, and I'll tell you how I will behave.**" This phrase by Israeli physicist Eli Goldratt, creator of Theory of Constraints, stressed the importance of choosing the right measure to guide investors and managers. He turned the game on Westerners after promoting Gain to Measure # 1.
+NP: Net Profit; PS: Product Sales; RM: Raw Material; WF: Workforce; OH:Overhead
+
+Costs also represent most of the company's accounting entries. Cost Accounting has met challenges in two World Wars, occupying the #1 rank since the 1920s. Cost reduction was what most influenced investors and managers around the world to increase Net Profit. However, the fundamentals of Cost Accounting have been shaken over time and terms like "product profit margin" lost their meaning.
+
+The quality revolution started by Deming in Japan in the 1950s corroborated *Kaizen*, a concept of Japanese culture that other languages need two words to express: continuous improvement. In the 1970s, while Toyota was evolving *Just in Time* at full speed, Western companies still preferred to insist on Cost Accounting, seeking sophisticated correlations between fixed costs, products and the process. The Japanese opted for Return on Investment as measure #1, highlighting the difference between Eastern and Western decision-support philosophies. The result was the Japanese buying New York in the 80's.
+
+"**Tell me how you measure me, and I'll tell you how I will behave.**" This phrase by Israeli physicist Eli Goldratt, creator of Theory of Constraints, stressed the importance of choosing the right measure to guide investors and managers. He turned the game on Westerners after promoting Gain to Measure #1.
 
 He used the Net Profit formula to convince everyone that managing the cost world was very information-dependent. All terms are costs, he exaggerated. What expense to cut if everything is important? We are drowning in a sea of data, complaining about the lack of information!
 
-With the world of gains, Goldratt changed the paradigm, obsessively focusing on the analysis of product sales. It's the only term that contributes positively to the Profit equation, he said. Unlike cost savings, Gain has no limits. That is, the sky is the limit.
+With the world of gains, Goldratt changed the paradigm, obsessively focusing on the analysis of product sales. It's the only term that contributes positively to the Net Profit equation, he said. Unlike cost savings, Gain has no limits. That is, the sky is the limit.
 
 ## Ampli Business
 
@@ -169,7 +177,7 @@ Just looking at the following bAmpli Circuit below with 4 Cyclos, it is known th
 
 ![Y5 2 diagrama cyclos P Q bw](https://user-images.githubusercontent.com/86032/79129909-6872eb80-7d7c-11ea-9f6d-10f387129bb1.png)
 
-This 4-Cyclos bAmpli Circuit expects to make a profit to be returned to its investor, i.e. the green “+” at the top left of the circuit.
+This 4-Cyclos bAmpli Circuit expects to make a profit to be returned to its investor, i.e. the green “+” at the top left of the circuit. This project expects to develop the Ampli Business components.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
