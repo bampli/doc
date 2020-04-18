@@ -59,7 +59,7 @@ The following diagram clarifies the Company & Planet containerships.
 Initials | Indicator | Description
 --- | :--- | :---
 RI | Return on Investment | At initial version, RI is returned to Investors according to their Shares. This simple rule maybe extended in future versions.
-I | Investment | It is all the money that the Facility invests by buying things that will be converted into sales.
+I | Investment | It is all the money that the Facility invests by buying Inventory that will be converted into sales.
 NP | Net Profit | This is the Company NP, considering all the existing bAmpli Circuits inside the Facility.
 PS | Product Sales | It is the cash flow received from the sale of products from each existing Cyclo inside the Facility.
 RM | Raw Material | It is the cash flow that remunerate suppliers from each existing Cyclo inside the Facility.

@@ -20,7 +20,7 @@ Inspired on Goldratt's indicators for the Theory of Constraints, the Financial I
 Initials | Indicator | Description
 --- | :--- | :---
 RI | Return on Investment | Equals Net Profit divided by Investment.
-I | Investment | It is all the money the system invests by buying things that the system intends to sell.
+I | Investment | It is all the money the system invests by buying Inventory that the system intends to sell.
 NP | Net Profit | Product Sales Revenue minus Raw Material, Labor, and Overhead Costs.
 PS | Product Sales | It is the cash flow received from the sale of products.
 RM | Raw Material | It is the cash flow that remunerate suppliers.
