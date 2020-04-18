@@ -21,7 +21,7 @@ Thus, Working Time is defined as the total journey time that company works. From
 
 ## Available Time Index (ati)
 
-Given the Working Time, extract the Downtime, which is the time that machines or equipment failed, preventing production from occurr. The remaining time, i.e. when the machines and equipment are running, is called Available Time. See in the following diagram that the available time index (ati) equals the Available Time divided by Working Time.
+Given the Working Time, extract the Downtime, which is the time that machines or equipment failed, preventing production from occur. The remaining time, i.e. when the machines and equipment are running, is called Available Time. See in the following diagram that the available time index (ati) equals the Available Time divided by Working Time.
 
 ![50 2 2 tempodisponivel](https://user-images.githubusercontent.com/86032/79464045-f8f53a00-7fcf-11ea-97f1-ba420a15e555.png)
 

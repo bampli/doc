@@ -15,7 +15,7 @@ tags: [
 ---
 An individual with certain skills and resources creates a small business. Applying his knowledge, he elaborates a process that transforms market-acquired raw materials into products he intends to sell. In the beginning, he is the do-everything. Buy, produce, sell, invoice, pay and receive. Market acceptance is good and sales grow rapidly, driven by word of mouth from satisfied customers.
 
-The diagram below represents this stage of business, where the investor is very close to everything and everyone. It captures information directly from the process and makes virtually instant decisions, streamlining business operations. Free of distortions in information and decisions, the business proceeds from the stern.
+The diagram below represents this stage of business, where the investor is very close to everything and everyone. It captures information directly from the process and makes virtually instant decisions, streamlining business operations. Free of distortions in information and decisions, the business is booming.
 
 ![X 9 1 investor](https://user-images.githubusercontent.com/86032/79128869-9820f400-7d7a-11ea-88f7-f4b362ef8f4b.png)
 
@@ -23,11 +23,11 @@ As sales increase, it needs to work harder and harder. It optimizes the process 
 
 ## Pyramid Expands Control
 
-The investor alters the process and has distributed purchasing, production, sale, billing and receipt tasks among business managers. In pyramid form, a multilevel structure establishes a hierarchy of managers. Here's a typical diagram:
+The investor alters the process and distributes tasks like purchasing, production, sale, billing and receipt among several business managers. In pyramid form, a multilevel structure establishes a hierarchy of managers. Here's a typical diagram:
 
 ![X 9 2 manager](https://user-images.githubusercontent.com/86032/79128891-9fe09880-7d7a-11ea-9d08-5d75a456ca91.png)
 
-As the business grows, it needs to add levels to the pyramid. Depending on the activities performed, this occurs when the human limit is reached, which usually sets a maximum of fifteen subordinates per person.
+As the business grows, it needs to add more levels to the pyramid. Depending on the activities performed, this occurs when the human limit is reached, which usually sets a maximum of fifteen subordinates per person.
 
 This structure has been widely employed by various types of organization throughout history. From armies to religions, the hierarchical pyramid is unanimous when it comes to management. Increasing the command power of the investor and managers requires them to relate to the next higher and lower levels. The main duties of managers are:
 

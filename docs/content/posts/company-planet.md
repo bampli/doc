@@ -51,7 +51,7 @@ The following diagram clarifies the Company & Planet containerships.
 - The **Facility** is a commitment to lend. It is like a credit card that entitles the Company to borrow on demand up to a prearranged limit at a predetermined interest rate. When the Company use the card, it creates an outstanding loan, and each additional charge is a drawdown againts the Facility that increases the loan. Finally the Company pays the loan principal, and may also pay an annual fee for the privilege of having the Facility, independently of the loan. This definition is inspired by Eric Evans "Domain Driven Design" book, shown at chapter eight.
 - The **Facility** implements a **bAmpli Circuit** designed to fullfill Company's Process. The **bAmpli Circuit** is an abstraction that maybe implemented by  different Companies. It is like an electronic circuit schematic that may be applied to different equipment.
 - The **bAmpli Circuit** is composed of at least one **bAmpli**, or Business Amplifier.
-- The bAmpli is responsible for at least one **Cyclo**, or Gain Machine.
+- The **bAmpli** is responsible for at least one **Cyclo**, or Gain Machine.
 - The **Cyclo** is composed of at least one **Stage**.
 
 ## Financial Indicators
@@ -60,7 +60,7 @@ Initials | Indicator | Description
 --- | :--- | :---
 RI | Return on Investment | At initial version, RI is returned to Investors according to their Shares. This simple rule maybe extended in future versions.
 I | Investment | It is all the money that the Facility invests by buying things that will be converted into sales.
-NP | Net Profit | This is the Company NP, including all bAmpli Circuits involved.
+NP | Net Profit | This is the Company NP, considering all the existing bAmpli Circuits inside the Facility.
 PS | Product Sales | It is the cash flow received from the sale of products from each existing Cyclo inside the Facility.
 RM | Raw Material | It is the cash flow that remunerate suppliers from each existing Cyclo inside the Facility.
 G | Gain | This is the rate at which the system generates money through sales. Equals revenue from Product Sales minus Raw Material expenses from each Cyclo inside the Facility.
