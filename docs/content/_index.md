@@ -55,7 +55,7 @@ This project presents **Ampli Business**, an information system organized in lay
 {{< /hint >}}
 
 {{< columns >}}
-The process hasn't a single-time-and-done behavior. The operations repeats endlessly for each product! Assets always enter a step, are processed for some time and follow to the next step. All steps work simultaneously, like a n-stroke engine.
+Every process step hasn't a single-time-and-done behavior. The operations in each step repeat endlessly for each product! Assets enter a step, are processed for some time and follow to the next step. All steps work simultaneously, similar to a n-stroke engine.
 
 The **Cyclo** adds a rule to the Deming’s process specification stating that "**The process consumes product from nature and transforms them into other products of nature**".
 
