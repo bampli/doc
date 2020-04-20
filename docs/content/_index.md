@@ -52,29 +52,34 @@ This project presents **Ampli Business**, an information system organized in lay
 {{< /columns >}}
 
 {{< hint info >}}
-The Cyclo adds a new rule to the Deming’s process specification: **The process is a closed loop that consumes product from nature and transforms them into other products of nature**. The market consumers, as the main link of the production line, release the vital energy that generates demand. Then, products and money start to cycle in opposite directions, generating  the Gain that feeds bAmpli, the Business Amplifier. The cycling speed, or **Cyclo spin** is determined by the process constraint.
+**The Cyclo generates the Gain that feeds bAmpli, the Business Amplifier. The speed is determined by the Process constraint.**
+
 {{< /hint >}}
 
 {{< columns >}}
+
+The process hasn't a single-time-and-done behavior. The operations repeats endlessly for each product! Assets always enter a step, are processed for some time and follow to the next step. All steps work simultaneously, like a n-stroke engine.
+
+The **Cyclo** adds a rule to the Deming’s process specification stating that "**The process consumes product from nature and transforms them into other products of nature**".
+
 ![Y3 1 Cyclo bw](https://user-images.githubusercontent.com/86032/79046804-5dd41d00-7be9-11ea-9239-780095caaffb.png)
 
-The process hasn't a single time and done behavior. The operations repeats endlessly for each product! Assets always enter a step, are processed for some time and follow to the next step. All steps work simultaneously, like a n-stroke engine.
-
-At the top, Earth's first green arrow to “Sn” indicates the money from the consumer market that pays for Product Sales (PS). This money is used to pay the Raw Materials (RM) used in the process steps. The remaining balance is the Gain (G) which contributes to company's net profit.
-
-On the other hand, the outer blue arrows leaving Earth to "S1" represent assets traversing the path in the opposite direction. Raw materials are purchased, enter into the process, and become products that the company intends to sell.
+The market consumers, as the main link of the production line, release the vital energy that generates demand. Then, products and money start to cycle in opposite directions, generating  the Gain that feeds bAmpli, the Business Amplifier. The cycling speed, or **Cyclo spin** is determined by the process constraint.
 
 <--->
+
+The Plan consists of managing a **Cyclo** feeding the **bAmpli** with its respective **Gain**. The "**+**" symbol at the top represents the investor. In addition to the Plan, the system also captures the naked Reality.
+
 ![Y3 3 bampli Lucro bw](https://user-images.githubusercontent.com/86032/79046226-0aac9b00-7be6-11ea-9664-d33b7c5b99cd.png)
 
-The Plan consists of managing Cyclos feeding the company with their respective Gains. The "+" symbol at the top represents the investor. In addition to the plan, the system also captures the naked Reality. The function of the Administration is to confront Plan & Reality, promoting the actions of managers and investors that will fix the differences. Operating Expense should  cover the Labor and Overhead expenses.
+The role of the Administration is to confront **Plan** & **Reality**, promoting the actions of managers and investors to fix any differences. Operating Expenses should  cover the Labor and Overhead costs.
 
-Administration has "+" and "-" inputs, respectively for plan & reality feedback. The Cyclo is expected to happen, which means the positive input. If there is a disparity, an action must be taken. For example, when the Gain is negative, it is necessary to inject Investment, in order to keep Cyclo spinning. This maybe not expected but it happens!
+**Administration** has positive and negative inputs. The Cyclo is something expected to happen, which means the positive input. If reality reveals a disparity at the negative input, an action must be taken. For example, when Gain is negative, it is necessary to inject Investment, in order to keep Cyclo spinning.
 
 {{< /columns >}}
 
 {{< hint info >}}
-**Ampli Business Circuits allow the development of unlimited Cyclo and bAmpli topologies. They help investors and managers, at every level of the company, at any time, to have access to the global vision of the organization, and its role in globalization.**
+**Ampli Business Circuits allow the development of unlimited Cyclo and bAmpli combinations. They help investors and managers, at every level of the company, at any time, to have access to the global vision of the organization, and its role in globalization.**
 {{< /hint >}}
 
 {{< columns >}}
@@ -83,7 +88,7 @@ Administration has "+" and "-" inputs, respectively for plan & reality feedback.
 
 Business Ampliers may be grouped to form **bAmpli Circuits**.
 
-For example, the following circuit shows a bAmpli providing investments to leverage three other bAmplis with distinct Cyclos. It can represent an Angel investing in Startups, for example.
+For example, the following circuit shows a bAmpli providing investments to leverage three other distinct Cyclos. It can represent an **Angel** investing in **Startups**, for example.
 
 In this case, when the Angel sells its “product”, the entire Startup is negotiated, disappearing from the diagram and fattening the Angel's net profit!
 

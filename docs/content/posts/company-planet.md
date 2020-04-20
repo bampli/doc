@@ -8,7 +8,7 @@ menu:
 #next: /posts/github-pages-blog
 #prev: /posts/automated-deployments
 title: Company & Planet
-weight: 50
+weight: 60
 tags: [
     "how-to-change",
 ]
