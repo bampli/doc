@@ -48,16 +48,13 @@ The challenge of creating a system to explore one bottleneck at a time would be 
 This project presents **Ampli Business**, an information system organized in layers that establishes an **ubiquitous language** to assist companies of all types & sizes involved in making **business decisions**.
 
 ![Y 1 3 P Q Combo](https://user-images.githubusercontent.com/86032/79045923-26af3d00-7be4-11ea-936e-40481471f16f.png)
-
 {{< /columns >}}
 
 {{< hint info >}}
 **The Cyclo generates the Gain that feeds bAmpli, the Business Amplifier. The speed is determined by the Process constraint.**
-
 {{< /hint >}}
 
 {{< columns >}}
-
 The process hasn't a single-time-and-done behavior. The operations repeats endlessly for each product! Assets always enter a step, are processed for some time and follow to the next step. All steps work simultaneously, like a n-stroke engine.
 
 The **Cyclo** adds a rule to the Deming’s process specification stating that "**The process consumes product from nature and transforms them into other products of nature**".
