@@ -14,7 +14,7 @@ tags: [
 ]
 ---
 
-This **Process** is used as an example during this project when a manufacturing process is needed.
+This is the **Process** used as a sample when a process is needed in this project.
 
 The P&Q Factory gives no room for apology and demonstrates how the Theory of Constraint can help managers with their decision-making logic. The fictional factory portfolio has products P & Q.
 
