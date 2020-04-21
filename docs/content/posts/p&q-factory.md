@@ -28,13 +28,13 @@ Using TPM to describe the P&Q Factory, there is little reason to blame poor corp
 - **zti = 1** There are no defective products, then zero defect index is 1.
 - **gpi = 1** Multiply above indexes to get the P&Q global performance index of 1.
 
-Using the week as a unit, the factory's working time is 2,400 minutes per week. Due to unitary **gpi**, this time is all used in the process to manufacture P and Q at the highest quality and speed. More details about the P&Q Factory that make life easier to investors and managers:
+Using the week as a unit, the factory's working time is 2,400 minutes per week. Due to unitary **gpi**, this time is all used in the process to manufacture P and Q at the highest quality and speed possible. More details about the P&Q Factory that make life easier to investors and managers:
 
-- **Sales**: There is no difficulty to move the P&Q products because the market
-has the potential to buy up to 100 pieces of P and 50 pieces of Q per week.
+- **Sales**: There is no difficulty in moving the P&Q products because the market
+has potential to buy up to 100 pieces of P and 50 pieces of Q per week.
 - **Prices**: The unit prices are preset at $90 for P and $100 for Q. If production exceeds market limits, products become stranded.
 - **Operating Expenses**: There are no surprises for fixed costs, since Operating Expenses are immutable $6,000 per week, including Workforce and Overhead.
-- **Raw Materials**: The raw materials used in the process are P-Part, RM1, RM2, and RM3, at costs respectively of $5, $20, $20 and $20. The suppliers do not change these conditions.
+- **Raw Materials**: The raw materials used in the process are P-Part, RM1, RM2, and RM3, at costs respectively of $5, $20, $20 and $20, with no surprises.
 - **Stages**: The P&Q Factory process consists of four Stages: A, B, C, and D.
 
 ## P&Q Manufacturing Process
@@ -66,6 +66,8 @@ Lastly, RM3 spends 10 minutes in Stage A, then is processed for 15 minutes in St
 ## How much profit does the P&Q Factory?
 
 What is the maximum Net Profit that P&Q Factory can earn per week? Think about the time each stage has for producing P and Q.
+
+This exercise, created by Eli Goldratt, was first published in the book "The Haystack Syndrome". The book below, and this project, both work on the solution.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
