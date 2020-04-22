@@ -63,11 +63,9 @@ The middle flow starts with RM2 being processed in Stage B for 15 minutes, conti
 
 Lastly, RM3 spends 10 minutes in Stage A, then is processed for 15 minutes in Stage B and goes to Q assembly at Stage D. P&Q mounting Stages D are processed in respectively 15 and 5 minutes.
 
-## How much profit does the P&Q Factory?
+## What is the net profit of the P&Q Factory?
 
-What is the maximum Net Profit that P&Q Factory can earn per week? Think about the time each stage has for producing P and Q.
-
-This exercise, created by Eli Goldratt, was first published in the book "The Haystack Syndrome". The book below, and this project, both work on the solution.
+What is the maximum net profit that P&Q Factory can earn per week? Think about the time each stage has for producing P&Q. This exercise is solved in the books "The Haystack Syndrome" and [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q).
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
