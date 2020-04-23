@@ -35,7 +35,7 @@ has potential to buy up to 100 pieces of P and 50 pieces of Q per week.
 - **Prices**: The unit prices are preset at $90 for P and $100 for Q. If production exceeds market limits, products become stranded.
 - **Operating Expenses**: There are no surprises for fixed costs, since Operating Expenses are immutable $6,000 per week, including Workforce and Overhead.
 - **Raw Materials**: The raw materials used in the process are P-Part, RM1, RM2, and RM3, at costs respectively of $5, $20, $20 and $20, with no surprises.
-- **Stages**: The P&Q Factory process consists of four Stages: A, B, C, and D.
+- **Workers**: The P&Q Factory has Workers (or departments) with skills: A, B, C, and D.
 
 ## P&Q Manufacturing Process
 
@@ -57,11 +57,11 @@ graph LR
 \end{gathered}
 {{< /katex >}}
 
-As shown in the top of the diagram, RM1 enters Stage A, takes 15 minutes processing, then goes to Stage C for 10 minutes and ends in Stage D, which assembles product P with P-Part.
+As shown in the top of the diagram, RM1 enters Worker A, takes 15 minutes processing, then goes to Worker C for 10 minutes and ends in Worker D, which assembles product P with purchased P-Part.
 
-The middle flow starts with RM2 being processed in Stage B for 15 minutes, continuing to Stage C for 5 minutes and reaching both assembly steps D. This central flow is used in both P and Q fabrication. To manufacture one of each, it is necessary to process RM2 twice through B and C.
+The middle flow starts with RM2 being processed in Worker B for 15 minutes, continuing to Worker C for 5 minutes and reaching both assembly steps D. This central flow is used in both P and Q fabrication. To manufacture one of each, it is necessary to process RM2 twice through B and C.
 
-Lastly, RM3 spends 10 minutes in Stage A, then is processed for 15 minutes in Stage B and goes to Q assembly at Stage D. P&Q mounting Stages D are processed in respectively 15 and 5 minutes.
+Lastly, RM3 spends 10 minutes in Worker A, then is processed for 15 minutes in Worker B and goes to Q assembly Worker D. Assembly Worker D processes P and Q in respectively 15 and 5 minutes.
 
 ## What is the net profit of the P&Q Factory?
 
