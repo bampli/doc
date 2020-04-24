@@ -32,14 +32,14 @@ Using the week as a unit, the factory's working time is 2,400 minutes per week. 
 
 - **Sales**: There is no difficulty in moving the P&Q products because the market
 has potential to buy up to 100 pieces of P and 50 pieces of Q per week.
-- **Prices**: The unit prices are preset at $90 for P and $100 for Q. If production exceeds market limits, products become stranded.
+- **Prices**: The unit prices are preset at $90 for P and $100 for Q. If production exceeds market volume limits, the products become stranded.
 - **Operating Expenses**: There are no surprises for fixed costs, since Operating Expenses are immutable $6,000 per week, including Workforce and Overhead.
 - **Raw Materials**: The raw materials used in the process are P-Part, RM1, RM2, and RM3, at costs respectively of $5, $20, $20 and $20, with no surprises.
-- **Workers**: The P&Q Factory has Workers (or departments) with skills: A, B, C, and D.
+- **Workforce**: The P&Q Factory has four workers with different **skills**: A, B, C, and D. They are absolutely perfect workers during all the working time. No delays, no errors.
 
-## P&Q Manufacturing Process
+## P&Q Process
 
-The engineering of the P&Q Factory presents the manufacturing process in the following diagram, showing the production flows that result in P and Q.
+The engineering of the P&Q Factory presents the *manufacturing* process in the following diagram, showing the production flows that result in P and Q. These flows could also be applied to other *environments* where **resources** would be used for **tasks** that require **skills**, to achieve a **goal**.
 
 {{< mermaid >}}
 graph LR
@@ -57,11 +57,11 @@ graph LR
 \end{gathered}
 {{< /katex >}}
 
-As shown in the top of the diagram, RM1 enters Worker A, takes 15 minutes processing, then goes to Worker C for 10 minutes and ends in Worker D, which assembles product P with purchased P-Part.
+As seen at the top of the diagram, RM1 is processed by A for 15 minutes, then C processes it for 10 minutes. It is finished by D that assembles product P using the purchased P-Part.
 
-The middle flow starts with RM2 being processed in Worker B for 15 minutes, continuing to Worker C for 5 minutes and reaching both assembly steps D. This central flow is used in both P and Q fabrication. To manufacture one of each, it is necessary to process RM2 twice through B and C.
+The middle flow starts with RM2 being processed by B for 15 minutes, continue to C workstation for 5 minutes and may reach both assembly tasks done by D. This central flow is used in both P and Q fabrication. To manufacture one of each, it is necessary to process RM2 twice by B and C.
 
-Lastly, RM3 spends 10 minutes in Worker A, then is processed for 15 minutes in Worker B and goes to Q assembly Worker D. Assembly Worker D processes P and Q in respectively 15 and 5 minutes.
+Lastly, RM3 spends 10 minutes being processed by A, then is processed for 15 minutes by B and goes to Q assembly workstation. D assembles P and Q in respectively 15 and 5 minutes.
 
 ## What is the net profit of the P&Q Factory?
 
