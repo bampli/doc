@@ -39,7 +39,7 @@ has potential to buy up to 100 pieces of P and 50 pieces of Q per week.
 
 ## P&Q Process
 
-The engineering of the P&Q Factory presents the *manufacturing* process in the following diagram, showing the production flows that result in P and Q. These flows could also be applied to other *environments* where **resources** would be used for **tasks** that require **skills**, to achieve a **goal**.
+The engineering of the P&Q Factory presents the *manufacturing* process in the following diagram, showing the production flows that result in P and Q. These flows could also be applied to other *environments* where **resources** are used for **tasks** that require **skills**, to achieve a **goal**.
 
 {{< mermaid >}}
 graph LR
