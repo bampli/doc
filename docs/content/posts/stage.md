@@ -38,21 +38,23 @@ graph LR
 
 {{< mermaid >}}
 classDiagram
-    Product --> "many" Process : made by
-    Process --> "many" Task : has
-    Task --> "many" Skill : need
-    Task --> "many" Resource : use
-    Worker --> "many" Skill : has
-    Automation --> "many" Skill : has
+    Planet --> "1..n" Product : has
+    Product --> "1..n" Process : made by
+    Process --> "1..n" Task : has
+    Task --> "1..n" Skill : needs
+    Task --> "1..n" Resource : uses
+    Task --> "1..n" Task : flows
+    Worker --> "1..n" Skill : has
+    Worker --> "0..n" Tool : command
+    Tool --> "1..n" Skill : has
     Resource <|-- Cyclo
     Resource <|-- Facility
-    Cyclo <|-- RawMaterial
-    Cyclo <|-- WorkInProcess
+    Cyclo <|-- RM : external
+    Cyclo <|-- WIP : internal
     Facility <|-- Worker
-    Facility <|-- Automation
-    Facility <|-- ElectricalEnergy
-    Facility <|-- ShopFloor
-    Facility <|-- ElectricalEnergy
+    Facility <|-- Tool
+    Facility <|-- Energy
+    Facility <|-- Area
 {{< /mermaid >}}
 
 {{< katex >}}
