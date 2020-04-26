@@ -14,6 +14,18 @@ tags: [
 ]
 ---
 
+{{< mermaid >}}
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
+{{< /mermaid >}}
 
 {{< mermaid >}}
 graph LR
@@ -22,6 +34,25 @@ graph LR
     RM2[RM2 $20/u] --> B2[B 15min/u] --> C2[C 5min/u] --> D1
     C2 --> D2[D]
     RM3[RM3 $20/u] --> A3[A 10min/u] --> B3[B 15min/u] --> D2[D 5min/u] --> Q[Q $100/U 50u/wk]
+{{< /mermaid >}}
+
+{{< mermaid >}}
+classDiagram
+    Product --> "many" Process : made by
+    Process --> "many" Task : has
+    Task --> "many" Skill : need
+    Task --> "many" Resource : use
+    Worker --> "many" Skill : has
+    Automation --> "many" Skill : has
+    Resource <|-- Cyclo
+    Resource <|-- Facility
+    Cyclo <|-- RawMaterial
+    Cyclo <|-- WorkInProcess
+    Facility <|-- Worker
+    Facility <|-- Automation
+    Facility <|-- ElectricalEnergy
+    Facility <|-- ShopFloor
+    Facility <|-- ElectricalEnergy
 {{< /mermaid >}}
 
 {{< katex >}}
