@@ -43,13 +43,13 @@ Then C processes the WIP for 10 minutes. Please note that the C input is not RM1
 - RM1 is a **resource** to A, and WIP is a **resource** to C as well.
 - RM1 is an **external** asset, since it comes from outside the process.
 - WIP is a **internal** asset, i.e. an intermediary result inside the process.
-- A and C are workers with specific **skills**, also named "A" and "C" here.
 - The transformation in RM1 is a **task** that requires 15 minutes of A's work.
 - Similarly, the WIP is processed by a **task** that requires 10 minutes from C.
+- A and C are workers with specific **skills**, also named "A" and "C" here.
 - It is convenient to separate the **worker** from its **skill**.
 - Actually the **task** needs a **skill**.
 - The **worker** is a **resource** with the necessary **skill** to accomplish the job.
-- An equivalent tool with same skill is also a **resource** that can be used.
+- An equivalent tool with same skill is a **resource** that could also be used.
 - The skills may be combined, for example, a worker commands a robot.
 
 We can also assure that the **resources** come from different sources:
@@ -59,7 +59,7 @@ We can also assure that the **resources** come from different sources:
 
 ## The Stage Model
 
-Then, we have the following modeling that includes the **Stage** tasks:
+Then, we have the following modeling that includes the **Stage**:
 
 {{< mermaid >}}
 classDiagram
