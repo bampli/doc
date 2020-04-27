@@ -20,7 +20,7 @@ The following relationships rule the interaction between the Company and the Pla
 
 ## COMPANY
 
-- The **Company** has **Investors**
+- The **Company** has a **Investor**
 - that own **Shares**
 - that decide how to manage a **Facility**
 - that implements a **bAmpli Circuit**
@@ -32,8 +32,9 @@ The following relationships rule the interaction between the Company and the Pla
 
 ## PLANET
 
-- The **Planet** is made of Processes
-- expressed by **bAmpli Circuits**
+- The **Planet** has a **Product**
+- made by a **Process**
+- expressed by a **bAmpli Circuit**
 - with at least one **bAmpli**
 - that handles at least one **Cyclo**
 - composed by one **Stage** or more.

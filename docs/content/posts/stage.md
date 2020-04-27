@@ -14,18 +14,13 @@ tags: [
 ]
 ---
 
-{{< mermaid >}}
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    alt is sick
-        Bob->>Alice: Not so good :(
-    else is well
-        Bob->>Alice: Feeling fresh like a daisy
-    end
-    opt Extra response
-        Bob->>Alice: Thanks for asking
-    end
-{{< /mermaid >}}
+In order to analyze thoroughly each **Stage** of the **Process**, we should consider initially the production flow that results in the **Product**.
+
+## The Production Flow
+
+Although the following example shows a *manufacturing* process, these flows can also be applied to generic *environments* where **resources** are used for **tasks** that require **skills**, to achieve a **goal**.
+
+In order to use a process sample, the [**P&Q Factory**](/docs/posts/pq-factory/) is shown below.
 
 {{< mermaid >}}
 graph LR
@@ -35,6 +30,36 @@ graph LR
     C2 --> D2[D]
     RM3[RM3 $20/u] --> A3[A 10min/u] --> B3[B 15min/u] --> D2[D 5min/u] --> Q[Q $100/U 50u/wk]
 {{< /mermaid >}}
+
+The partial elements shown below represents that **RM1 is processed by A** for 15 minutes. This means that something happens to the raw material RM1, causing its exit from A in a different state. This new asset is actually a fragment, known by the generic term  **work in process (WIP)**.
+
+{{< mermaid >}}
+graph LR
+    RM1[RM1 $20/u]-- raw material --> A1[A 15min/u]-- work in process --> C1[C 10min/u]
+{{< /mermaid >}}
+
+Then C processes the WIP for 10 minutes. Please note that the C input is not RM1 anymore, since it was already transformed by A. It is also implied in the flow diagram that:
+
+- RM1 is a **resource** to A, and WIP is a **resource** to C as well.
+- RM1 is an **external** asset, since it comes from outside the process.
+- WIP is a **internal** asset, i.e. an intermediary result inside the process.
+- A and C are workers with specific **skills**, also named "A" and "C" here.
+- The transformation in RM1 is a **task** that requires 15 minutes of A's work.
+- Similarly, the WIP is processed by a **task** that requires 10 minutes from C.
+- It is convenient to separate the **worker** from its **skill**.
+- Actually the **task** needs a **skill**.
+- The **worker** is a **resource** with the necessary **skill** to accomplish the job.
+- An equivalent tool with same skill is also a **resource** that can be used.
+- The skills may be combined, for example, a worker commands a robot.
+
+We can also assure that the **resources** come from different sources:
+
+- the Raw Material and WIP are resources related to the **Cyclo**.
+- the Workers, tools, shop floor area, etc are implemented by the **Facility**.
+
+## The Stage Model
+
+Then, we have the following modeling that includes the **Stage** tasks:
 
 {{< mermaid >}}
 classDiagram
@@ -55,6 +80,19 @@ classDiagram
     Facility <|-- Tool
     Facility <|-- Energy
     Facility <|-- Area
+{{< /mermaid >}}
+
+{{< mermaid >}}
+sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+        Bob->>Alice: Not so good :(
+    else is well
+        Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+        Bob->>Alice: Thanks for asking
+    end
 {{< /mermaid >}}
 
 {{< katex >}}
