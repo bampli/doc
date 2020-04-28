@@ -42,7 +42,7 @@ Then, **C processes the WIP for 10 minutes**. Please note that the C input is no
 
 - RM1 is a **resource** to A, and WIP is a **resource** to C as well.
 - RM1 is an **external** asset, since it comes from outside the process.
-- WIP is a **internal** asset, i.e. an intermediary result inside the process.
+- WIP is an **internal** asset, i.e. an intermediary result inside the process.
 - The transformation in RM1 is a **task** that requires 15 minutes of A's work.
 - Similarly, the WIP is processed by a **task** that requires 10 minutes from C.
 - A and C are workers with specific **skills**, also named "A" and "C" here.
@@ -89,11 +89,12 @@ The model highlights the following features:
 - Each **Product** has at least one **Process** that leads to its creation.
 - Each **Process** has at least one **Stage** to be executed.
 - The **Stage** must use at least one **Resource**.
-- The **Stage** proceeds to at least another **Stage**, until the consumer **Product** is reached.
+- The **Stage** proceeds to one or more **Stages**, until a  consumer **Product** is reached.
+- The consumer **Product** is the final and more important **Stage**.
 - The **Resource** must be related to the **Cyclo** or to the **Facility**.
 - The **Cyclo Resource** shall be **Raw Material (RM)** or **Work in Process (WIP)**.
-- **RM** is a **external** resource coming from another **Process**.
-- **WIP** is a **internal Process** resource.
+- **RM** is an **external** resource, and is also a **Product** coming from another **Process**.
+- **WIP** is an **internal Process** resource subject to  transformations.
 - The **Facility** has resources like **Worker**, **Tool**, **Area**, and **Energy**, among other.
 - Both **Worker** and **Tool** have at least one **Skill**.
 - **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
