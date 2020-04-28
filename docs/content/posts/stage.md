@@ -87,17 +87,19 @@ The model highlights the following features:
 
 - The **Planet** has at least one **Product**.
 - Each **Product** has at least one **Process** that leads to its creation.
-- Each **Process** has at least one **Stage** to be done.
+- Each **Process** has at least one **Stage** to be executed.
 - The **Stage** must use at least one **Resource**.
 - The **Stage** proceeds to at least another **Stage**, until the consumer **Product** is reached.
 - The **Resource** must be related to the **Cyclo** or to the **Facility**.
 - The **Cyclo Resource** shall be **Raw Material (RM)** or **Work in Process (WIP)**.
 - **RM** is a **external** resource coming from another **Process**.
 - **WIP** is a **internal Process** resource.
-- The **Facility** has resources like **Workers**, **Tools**, **Area**, and **Energy**, among other.
+- The **Facility** has resources like **Worker**, **Tool**, **Area**, and **Energy**, among other.
 - Both **Worker** and **Tool** have at least one **Skill**.
 - **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
 - The **Stage** requires at least one **Skill**, satisfied by a **Worker** or **Tool** resource attached to it.
+
+In order to audit a Process and certify that it is able to run, the information system shall follow all its Stages, and check if the corresponding Skills are being satisfied by the Facility implementation. Attached Worker and Tool resources must permanently comply with the required Stage skills, in order the Process may keep running.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
