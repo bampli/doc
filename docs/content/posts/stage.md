@@ -55,7 +55,7 @@ Then, **C processes the WIP for 10 minutes**. Please note that the C input is no
 We can also assure that the **resources** come from different sources:
 
 - RM and WIP are resources related to the **Cyclo**.
-- Workers, tools, shop floor area, etc. are implemented by the **Facility**.
+- Workers, tools, energy, shop floor area, etc. are implemented by the **Facility**.
 
 ## The Stage Model
 
