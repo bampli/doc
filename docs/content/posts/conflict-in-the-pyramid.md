@@ -91,7 +91,7 @@ Considering the analyzes propagated by the managers of each level, the informati
 
 **I-Investor** = **I-Process** . **A1i** . **A2i** . **A3i** ... **Ani**
 
-Then, there are interferences in decisions and information, represented by **A1d**, **A2d**, ..., **And** and **A1i**, **A2i**, ..., **Ani**, respectively the decision and information analysis that have been applied by managers, at their respective pyramid levels.
+Then, there are interference in decisions and information, represented by **A1d**, **A2d**, ..., **And** and **A1i**, **A2i**, ..., **Ani**, respectively the decision and information analysis that have been applied by managers, at their respective pyramid levels.
 
 Distortions in information and decisions are proportional to the number of levels in the hierarchical pyramid. Higher the pyramid, greater the likelihood that information and decisions will be distorted.
 
@@ -104,7 +104,7 @@ Apparently there is a conflict in the hierarchical structure of managers:
 
 ### The conflict diagram
 
-There is a template commonly used for conflict analysis, known by the **cloud evaporating method**. The name suggests that the dark clouds that float above your head just evaporate magically. Let's apply it to the hierarchical manager pyramid conflict and deeply analyse each one of its parts.
+There is a template commonly used for conflict analysis, known by the **cloud evaporating method**. The name suggests that the dark clouds that float above your head just evaporate magically. Let's apply it to the hierarchical manager pyramid conflict and deeply analyze each one of its parts.
 
 ![X 9 5 conflict](https://user-images.githubusercontent.com/86032/79128977-c69ecf00-7d7a-11ea-8a8a-e1a1154220ba.png)
 

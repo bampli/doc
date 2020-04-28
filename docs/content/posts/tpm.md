@@ -43,7 +43,7 @@ In calculating the Operational Performance Index (opi) below, the Productive Tim
 
 ## Zero Defect Index (zti)
 
-Considering the product quality, the Productive Time is deducted from the time spent reworking defective products, creating the Zero Defect Time (zti) index. At this time, the production system worked fully, with no downtimes, breakdowns, defects, or rework to fix them.
+Considering the product quality, the Productive Time is deducted from the time spent reworking defective products, creating the Zero Defect Time (zti) index. At this time, the production system worked fully, with no downtime, breakdowns, defects, or rework to fix them.
 
 ![50 2 7 quality](https://user-images.githubusercontent.com/86032/79464099-0ad6dd00-7fd0-11ea-901d-b8a5f9feec2d.png)
 

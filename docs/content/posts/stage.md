@@ -100,7 +100,7 @@ The model highlights the following features:
 - **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
 - The **Stage** requires at least one **Skill**, satisfied by a **Worker** or **Tool** resource attached to it.
 
-In order to audit a Process and certify that it is able to run, the information system shall follow all its Stages, and check if the corresponding Skills are being satisfied by the Facility implementation. Attached Worker and Tool resources must permanently comply with the required Stage expertises, in order the Process may keep running.
+In order to audit a Process and certify that it is able to run, the information system shall follow all its Stages, and check if the corresponding Skills are being satisfied by the Facility implementation. Attached Worker and Tool resources must permanently comply with the required Stage expertise, in order the Process may keep running.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**

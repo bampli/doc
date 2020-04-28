@@ -40,7 +40,7 @@ The following rules establish the **Process** specification.
 - Each Stage shall incorporate a process of continuous improvement, or kaizen;
 - With the assistance of SPC, JIT, TPM and TOC, management shall establish operational definitions related to the Process;
 - Management should perform sampling, measurement and control charts that assess the quality of production;
-- An extra tenth rule is added to Deming's definition, in order to clarify that a cyclic behaviour is expected. Actually, it is a consequence of rules six and seven.
+- An extra tenth rule is added to Deming's definition, in order to clarify that a cyclic behavior is expected. Actually, it is a consequence of rules six and seven.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
