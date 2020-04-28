@@ -1,6 +1,6 @@
 ---
 author: "José Motta Lopes"
-date: 2020-04-20
+date: 2020-04-28
 linktitle: The Stage
 menu:
   main:
@@ -71,6 +71,7 @@ classDiagram
     Task --> "1..n" Task : flows
     Worker --> "1..n" Skill : has
     Worker --> "0..n" Tool : command
+    Tool --> "0..n" Tool : command
     Tool --> "1..n" Skill : has
     Resource <|-- Cyclo
     Resource <|-- Facility
@@ -82,25 +83,21 @@ classDiagram
     Facility <|-- Area
 {{< /mermaid >}}
 
-{{< mermaid >}}
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    alt is sick
-        Bob->>Alice: Not so good :(
-    else is well
-        Bob->>Alice: Feeling fresh like a daisy
-    end
-    opt Extra response
-        Bob->>Alice: Thanks for asking
-    end
-{{< /mermaid >}}
+The model highlights the following features:
 
-{{< katex >}}
-\begin{gathered}
-   wk&=2400\,min \qquad
-   OE&=\$6000/wk
-\end{gathered}
-{{< /katex >}}
+- The **Planet** has at least one **Product**.
+- Each **Product** has at least one **Process** that leads to its creation.
+- Each **Process** has at least one **Task** to be done.
+- The **Task** must use at least one **Resource**.
+- The **Task** proceeds to at least one **Task**, until reaching the **Product** for the consumer.
+- The **Resource** must be related to the **Cyclo** or to the **Facility**.
+- The **Cyclo Resources** shall be **Raw Material (RM)** or **Work in Process (WIP)**.
+- **RM** is a **external** resource coming from another **Process**.
+- **WIP** is a **internal** resource for the **Process**.
+- The **Facility** has resources like **Workers**, **Tools**, **Area**, and **Energy**, among other.
+- Both the **Worker** and **Tool** have at least one **Skill**.
+- The **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
+- The **Task** needs at least one **Skill**, satisfied by a **Worker** or **Tool** resource attached to it.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
