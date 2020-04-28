@@ -93,8 +93,8 @@ The model highlights the following features:
 - The consumer **Product** is the final and more important **Stage**.
 - The **Resource** must be related to the **Cyclo** or to the **Facility**.
 - The **Cyclo Resource** shall be **Raw Material (RM)** or **Work in Process (WIP)**.
-- **RM** is an **external** resource, and is also a **Product** coming from another **Process**.
-- **WIP** is an **internal Process** resource subject to  transformations.
+- **RM** is an **external** resource, and it is also a **Product** coming from another **Process**.
+- **WIP** is an **internal Process** resource, still subject to  transformations.
 - The **Facility** has resources like **Worker**, **Tool**, **Area**, and **Energy**, among other.
 - Both **Worker** and **Tool** have at least one **Skill**.
 - **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
