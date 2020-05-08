@@ -45,6 +45,8 @@ The following diagram clarifies the Company & Planet containerships.
 
 ![Z1 1 company-planet-2](https://user-images.githubusercontent.com/86032/81451969-0bd8d580-915c-11ea-807f-3185ef213fed.png)
 
+The corresponding relationships are outlined below:
+
 - The **Company** has **Investors** that are the shareholders.
 - The **Investors** own **Shares** that elect Company's top management.
 - The **Facility** in this context is not a building!
