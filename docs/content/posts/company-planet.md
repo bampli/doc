@@ -42,9 +42,8 @@ The following relationships rule the interaction between the Company and the Pla
 {{< /columns >}}
 
 The following diagram clarifies the Company & Planet containerships.
-![Z1 1 company-planet](https://user-images.githubusercontent.com/86032/79578885-34aa0580-809d-11ea-9acd-e717a20eebfe.png)
 
-### Notes
+![Z1 1 company-planet-2](https://user-images.githubusercontent.com/86032/81451969-0bd8d580-915c-11ea-807f-3185ef213fed.png)
 
 - The **Company** has **Investors** that are the shareholders.
 - The **Investors** own **Shares** that elect Company's top management.
