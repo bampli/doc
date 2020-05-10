@@ -55,6 +55,9 @@ This project presents **Ampli Business**, an information system organized in lay
 {{< /hint >}}
 
 {{< columns >}}
+
+## Cyclo: Gain Machine
+
 Every process step hasn't a single-time-and-done behavior. The operations in each step repeat endlessly for each product! Assets enter a step, are processed for some time and follow to the next step. All steps work simultaneously, similar to a n-stroke engine.
 
 The **Cyclo** adds a rule to the Deming’s process specification stating that "**The process consumes product from nature and transforms them into other products of nature**".
@@ -64,6 +67,8 @@ The **Cyclo** adds a rule to the Deming’s process specification stating that "
 The market consumers, as the main link of the production line, release the vital energy that generates demand. Then, products and money start to cycle in opposite directions, generating  the Gain that feeds bAmpli, the Business Amplifier. The cycling speed, or **Cyclo spin** is determined by the process constraint.
 
 <--->
+
+## bAmpli: Business Amplifier
 
 The Plan consists of managing a **Cyclo** feeding the **bAmpli** with its respective **Gain**. The "**+**" symbol at the top represents the investor. In addition to the Plan, the system also captures the naked Reality.
 
