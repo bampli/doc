@@ -38,7 +38,7 @@ graph LR
     RM1[RM1 $20/u]-- raw material --> A1[A 15min/u]-- work in process --> C1[C 10min/u]
 {{< /mermaid >}}
 
-Then, **C processes the WIP for 10 minutes**. Please note that the C input is not RM1 anymore, since it was already transformed by A. It is also implied in the production flow diagram that:
+Then, **C processes the WIP** for 10 minutes. Please note that the C input is not RM1 anymore, since it was already transformed by A. It is also implied in the production flow diagram that:
 
 - RM1 is a **resource** to A, and WIP is a **resource** to C as well.
 - RM1 is an **external** asset, since it comes from outside the process.
