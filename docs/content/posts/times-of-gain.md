@@ -46,10 +46,11 @@ classDiagram
 
 {{< mermaid >}}
 stateDiagram
-    [*] --> Resources
+    [*] --> Resources : Cyclo is running
     Resources --> Execution
     Execution --> Output
     Output --> Release
+    Release --> [*]
     state Resources {
         Cyclo --> RM
         Cyclo --> WIP
@@ -65,14 +66,15 @@ stateDiagram
         Tool --> available : tool_skill_ok
     }
     state Execution {
-        [*] --> aa
+        stage_execution
     }
     state Output {
-        [*] --> oo
+        generate_output --> WIP
     }
     state Release {
-        [*] --> xx
+        release_resources --> Facility
     }
+
 
 {{< /mermaid >}}
 
