@@ -94,7 +94,7 @@ For example, the following circuit shows a bAmpli providing investments to lever
 
 In this case, when the Angel sells its “product”, the entire Startup is negotiated, disappearing from the diagram and fattening the Angel's net profit!
 
-The bAmpli circuit allows analysing each Cyclo separately.
+The bAmpli circuit allows analyzing each Cyclo separately.
 
 <--->
 ![Y4 4 circ anjo bw](https://user-images.githubusercontent.com/86032/79048410-3f731f00-7bf3-11ea-91a7-262ae1aadc67.png)
