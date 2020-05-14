@@ -22,7 +22,7 @@ classDiagram
     Process --> "1..n" Stage : has
     Stage --> "1..n" Skill : requires
     Stage --> "1..n" Resource : uses
-    Stage --> "1..n" Stage : flows
+    Stage --> Stage : previous_next
     Worker --> "1..n" Skill : has
     Worker --> "0..n" Tool : command
     Tool --> "0..n" Tool : command
@@ -64,8 +64,8 @@ stateDiagram
         alloc --> Skill
         Skill --> Worker
         Skill --> Tool
-        Tool --> available : tool_skill_ok
-        Worker --> available : worker_skill_ok
+        Tool --> available : tool_ok
+        Worker --> available : worker_ok
     }
     state Execution {
         stage_execution
@@ -78,9 +78,9 @@ stateDiagram
         release --> Energy
         Energy --> Facility : energy_free
         release --> Tool
-        Tool --> Skill : tool_skill_free
+        Tool --> Facility : tool_free
         release --> Worker
-        Worker --> Skill : worker_skill_free
+        Worker --> Facility : worker_free
     }
 
 

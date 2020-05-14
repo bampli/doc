@@ -68,7 +68,7 @@ classDiagram
     Process --> "1..n" Stage : has
     Stage --> "1..n" Skill : requires
     Stage --> "1..n" Resource : uses
-    Stage --> "1..n" Stage : flows
+    Stage --> Stage : previous_next
     Worker --> "1..n" Skill : has
     Worker --> "0..n" Tool : command
     Tool --> "0..n" Tool : command
