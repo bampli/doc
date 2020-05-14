@@ -37,12 +37,9 @@ classDiagram
     Facility <|-- Area
 {{< /mermaid >}}
 
-### Prerequisites for Stage execution run in parallel
+## Stage Resources
 
-- For each allocated Resource, check its availability.
-- If Resource is not available then wait.
-- For the first time Resource is available, wait for the **Resource Initialization Time**.
-- At each transformation, wait for the **Resource Setup Time**.
+When the **Cyclo** is running, each **Stage** should allocate all necessary **Resources** before receiving the "green" light to be executed. The diagram below shows the allocation, execution and release states for each **Stage**.
 
 {{< mermaid >}}
 stateDiagram
@@ -82,9 +79,27 @@ stateDiagram
         release --> Worker
         Worker --> Facility : worker_free
     }
-
-
 {{< /mermaid >}}
+
+### Alloc_Resources
+
+- From the **Cyclo** may eventually come **RM** and/or the **WIP** generated at previous **Stage**.
+- Global Resources are obtained from the **Facility**, like Energy and/or Shop Floor Area.
+- The **Skills** indicate **Resources** to be sought in the **Facility**, like Tools and/or Workers.
+- For each **Resource**, check its availability. If not available, the **Stage** must wait.
+- The first time the Resource is allocated, there may be a delay due to the **Resource Initialization Time**.
+- At each transformation, there may be a delay due to the **Resource Setup Time**.
+
+### Execution
+
+- The **Stage** is executed according to the **Process** rule.
+- At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
+
+### Release_Resources
+
+- After execution, the allocated **Resources** should be freed to be used by other **Stages**.
+- Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
+- Remaining allocated **Resources** should also be released to the **Facility**.
 
 {{< mermaid >}}
 sequenceDiagram
