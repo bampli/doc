@@ -71,14 +71,16 @@ stateDiagram
         stage_execution
     }
     state Release_Resources {
-        release --> Cyclo
-        Cyclo --> WIP : wip_free
-        release --> Facility
-        Facility --> Area : area_free
-        Facility --> Energy : energy_free
-        release --> Skill
-        Skill --> Tool : tool_skill_free
-        Skill --> Worker : worker_skill_free
+        release --> WIP
+        WIP --> Cyclo : wip_free
+        release --> Area
+        Area --> Facility : area_free
+        release --> Energy
+        Energy --> Facility : energy_free
+        release --> Tool
+        Tool --> Skill : tool_skill_free
+        release --> Worker
+        Worker --> Skill : worker_skill_free
     }
 
 
