@@ -96,7 +96,7 @@ stateDiagram
 
 ### Stage Execution
 
-- The **Stage** is executed according to the **Process** rule.
+- As soon as resources are allocated, the **Stage** is executed according to the **Process** specification.
 - At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
@@ -128,7 +128,7 @@ sequenceDiagram
     end
 {{< /mermaid >}}
 
-These times are originally specified by the Process, since it defines the Stage sequence for the Cyclo. But the amount of time each step will require at run time is ultimately defined by the Facility.
+These times are originally specified by the **Process**, since it defines the **Stage** sequence for the **Cyclo**. But the amount of time each step will require at run time is ultimately defined by the **Cyclo** and **Facility** implementation.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
