@@ -100,7 +100,7 @@ stateDiagram
 
 ### Stage Execution
 
-- As soon as resources are allocated, the **Stage** is executed according to the **Process** specification.
+- As soon as resources are allocated, the **Stage** is executed according to the **Process** specification, as follows?
 - At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
