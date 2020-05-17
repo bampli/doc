@@ -15,12 +15,13 @@ Tool --> "1..n" Skill : has
 Resource <|-- Cyclo
 Cyclo <|-- RM : external
 Cyclo <|-- WIP : internal
-Resource <|-- Facil_Op
-Facil_Op <|-- Tool
-Facil_Op <|-- Worker
-Resource <|-- Facil_Infra
+Resource <|-- Facility
+Facility <|-- Facil_Infra
 Facil_Infra <|-- Energy
 Facil_Infra <|-- Area
+Facility <|-- Facil_Op
+Facil_Op <|-- Worker
+Facil_Op <|-- Tool
 Stage --> "1..n" Skill : requires</p><h2 id=stage-resources>Stage Resources</h2><p>When the <strong>Cyclo</strong> is running, each <strong>Stage</strong> should allocate all necessary <strong>Resources</strong> before receiving the &ldquo;green&rdquo; light to be executed. The diagram below shows the allocation, execution and release states for each <strong>Stage</strong>.</p><p class=mermaid>stateDiagram
 [*] --> Resource_Allocation : Cyclo is running
 Resource_Allocation --> Stage_Execution
