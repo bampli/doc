@@ -109,7 +109,7 @@ stateDiagram
 
 ## Stage Timing
  
-The timing during the Resource allocation, execution and release cycle is shown below.
+The timing during the Resource allocation, execution and release is shown below.
 
 {{< mermaid >}}
 sequenceDiagram
@@ -125,6 +125,9 @@ sequenceDiagram
     end
     rect rgb(0, 0, 255, .3)
         Release-->>Free: Resource Release Time
+    end
+    rect rgb(255, 0, 255, .3)
+        Alloc->>Free: Stage Total Time
     end
 {{< /mermaid >}}
 
