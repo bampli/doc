@@ -54,33 +54,36 @@ stateDiagram
     Stage_Execution --> Resource_Release
     Resource_Release --> [*]
     state Resource_Allocation {
+        [*] --> Cyclo
+        [*] --> Facil_Infra
+        [*] --> Skill
         Cyclo --> RM
         Cyclo --> WIP
-        RM --> available : rm_ok
-        WIP --> available : wip_ok
+        RM --> [*] : rm_ok
+        WIP --> [*] : wip_ok
         Facil_Infra --> Energy
         Facil_Infra --> Area
-        Energy --> available : energy_ok
-        Area --> available : area_ok
+        Energy --> [*] : energy_ok
+        Area --> [*] : area_ok
         Skill --> Facil_Op
         Facil_Op --> Tool
-        Tool --> available : tool_skill_ok
+        Tool --> [*] : tool_skill_ok
         Facil_Op --> Worker
-        Worker --> available : worker_skill_ok
+        Worker --> [*] : worker_skill_ok
     }
     state Stage_Execution {
         execution
     }
     state Resource_Release {
-        release --> WIP
+        [*] --> WIP
         WIP --> Cyclo : wip_free
-        release --> Area
+        [*] --> Area
         Area --> Facil_Infra : area_free
-        release --> Energy
+        [*] --> Energy
         Energy --> Facil_Infra : energy_free
-        release --> Tool
+        [*] --> Tool
         Tool --> Facil_Op : tool_skill_free
-        release --> Worker
+        [*] --> Worker
         Worker --> Facil_Op : worker_skill_free
     }
 {{< /mermaid >}}
