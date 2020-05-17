@@ -17,8 +17,8 @@ tags: [
 
 The **Stage** model shows below the **Facility** resources divided in two categories:
 
-- **Facility_Infra**: includes infrastructure items, like Shop Floor Area, Energy, etc.
-- **Facility_Op**: includes operational items with **Skills**, like Tools and Workers.
+- **Facil_Infra**: includes infrastructure items, like Shop Floor Area, Energy, etc.
+- **Facil_Op**: includes operational items with **Skills**, like Tools and Workers.
 
 {{< mermaid >}}
 classDiagram
@@ -34,12 +34,12 @@ classDiagram
     Resource <|-- Cyclo
     Cyclo <|-- RM : external
     Cyclo <|-- WIP : internal
-    Resource <|-- Facility_Op
-    Facility_Op <|-- Tool
-    Facility_Op <|-- Worker
-    Resource <|-- Facility_Infra
-    Facility_Infra <|-- Energy
-    Facility_Infra <|-- Area
+    Resource <|-- Facil_Op
+    Facil_Op <|-- Tool
+    Facil_Op <|-- Worker
+    Resource <|-- Facil_Infra
+    Facil_Infra <|-- Energy
+    Facil_Infra <|-- Area
     Stage --> "1..n" Skill : requires
 {{< /mermaid >}}
 
@@ -49,43 +49,43 @@ When the **Cyclo** is running, each **Stage** should allocate all necessary **Re
 
 {{< mermaid >}}
 stateDiagram
-    [*] --> Alloc_Resource : Cyclo is running
-    Alloc_Resource --> Stage_Execution
-    Stage_Execution --> Release_Resource
-    Release_Resource --> [*]
-    state Alloc_Resource {
+    [*] --> Resource_Allocation : Cyclo is running
+    Resource_Allocation --> Stage_Execution
+    Stage_Execution --> Resource_Release
+    Resource_Release --> [*]
+    state Resource_Allocation {
         Cyclo --> RM
         Cyclo --> WIP
         RM --> available : rm_ok
         WIP --> available : wip_ok
-        Facility_Infra --> Energy
-        Facility_Infra --> Area
+        Facil_Infra --> Energy
+        Facil_Infra --> Area
         Energy --> available : energy_ok
         Area --> available : area_ok
-        Skill --> Facility_Op
-        Facility_Op --> Tool
+        Skill --> Facil_Op
+        Facil_Op --> Tool
         Tool --> available : tool_skill_ok
-        Facility_Op --> Worker
+        Facil_Op --> Worker
         Worker --> available : worker_skill_ok
     }
     state Stage_Execution {
         execution
     }
-    state Release_Resource {
+    state Resource_Release {
         release --> WIP
         WIP --> Cyclo : wip_free
         release --> Area
-        Area --> Facility_Infra : area_free
+        Area --> Facil_Infra : area_free
         release --> Energy
-        Energy --> Facility_Infra : energy_free
+        Energy --> Facil_Infra : energy_free
         release --> Tool
-        Tool --> Facility_Op : tool_skill_free
+        Tool --> Facil_Op : tool_skill_free
         release --> Worker
-        Worker --> Facility_Op : worker_skill_free
+        Worker --> Facil_Op : worker_skill_free
     }
 {{< /mermaid >}}
 
-### Alloc_Resources
+### Resource_Allocations
 
 - From the **Cyclo** may eventually come **RM** and **WIP** generated at previous **Stage**.
 - **Infrastructure Resources** are obtained from the **Facility**, like Energy and Shop Floor Area.
@@ -100,7 +100,7 @@ stateDiagram
 - At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
-### Release_Resources
+### Resource_Releases
 
 - After execution, the allocated **Resources** should be freed to be used by other **Stages**.
 - Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
