@@ -34,12 +34,13 @@ classDiagram
     Resource <|-- Cyclo
     Cyclo <|-- RM : external
     Cyclo <|-- WIP : internal
-    Resource <|-- Facil_Op
-    Facil_Op <|-- Tool
-    Facil_Op <|-- Worker
-    Resource <|-- Facil_Infra
+    Resource <|-- Facility
+    Facility <|-- Facil_Infra
     Facil_Infra <|-- Energy
     Facil_Infra <|-- Area
+    Facility <|-- Facil_Op
+    Facil_Op <|-- Worker
+    Facil_Op <|-- Tool
     Stage --> "1..n" Skill : requires
 {{< /mermaid >}}
 
