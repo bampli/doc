@@ -1,6 +1,6 @@
 ---
 author: "José Motta Lopes"
-date: 2020-05-15
+date: 2020-05-17
 linktitle: Times of Gain
 menu:
   main:
@@ -15,7 +15,7 @@ tags: [
 ---
 ## Stage Model
 
-The **Stage** model shows below the **Facility** resources divided in two categories:
+The **Stage** model shows below the **Facility** resources divided into two categories:
 
 - **Facil_Infra**: includes infrastructure items, like Shop Floor Area, Energy, etc.
 - **Facil_Op**: includes operational items with **Skills**, like Tools and Workers.
