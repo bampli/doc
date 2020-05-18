@@ -89,7 +89,7 @@ stateDiagram
     }
 {{< /mermaid >}}
 
-### Resource_Allocation
+### Resource Allocation
 
 - From the **Cyclo** may eventually come **RM**, and **WIP** generated at previous **Stage**.
 - **Infrastructure Resources** are obtained from the **Facility**, like Energy and Shop Floor Area.
@@ -104,7 +104,7 @@ stateDiagram
 - At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
-### Resource_Release
+### Resource Release
 
 - After execution, the allocated **Resources** should be freed to be used by other **Stages**.
 - Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
