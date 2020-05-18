@@ -89,27 +89,28 @@ stateDiagram
     }
 {{< /mermaid >}}
 
-### Resource_Allocations
+### Resource_Allocation
 
-- From the **Cyclo** may eventually come **RM** and **WIP** generated at previous **Stage**.
+- From the **Cyclo** may eventually come **RM**, and **WIP** generated at previous **Stage**.
 - **Infrastructure Resources** are obtained from the **Facility**, like Energy and Shop Floor Area.
 - The **Skills** indicate **Operational Resources** to be sought in the **Facility**, like Tools and Workers.
-- For each **Resource**, check its availability. If not available, the **Stage** must wait.
+- For each required **Resource**, check its availability. If not available, the **Stage** must wait.
 - At Resource allocation, there may be a delay due to the **Resource Allocation Time**.
 - Before each Stage execution, there may be a delay due to the **Resource Setup Time**.
 
 ### Stage Execution
 
-- As soon as resources are allocated, the **Stage** is executed according to the **Process** specification, as follows:
+- As soon as resources are allocated and setup, the **Stage** is executed, according to Demings' **Process** specification.
 - At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
-### Resource_Releases
+### Resource_Release
 
 - After execution, the allocated **Resources** should be freed to be used by other **Stages**.
 - Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
-- Remaining allocated **Resources** should also be released to the **Facility**.
+- Remaining allocated **Resources** should be released to **Facil_Infra** and **Facil_Op**.
 - At Resource release, there may be a delay due to the **Resource Release Time**.
+- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation.
 
 ## Stage Timing
  
@@ -135,7 +136,7 @@ sequenceDiagram
     end
 {{< /mermaid >}}
 
-These times are originally specified by the **Process**, since it defines the **Stage** sequence for the **Cyclo**. But the amount of time each step will require at run time is ultimately defined by the **Cyclo** and **Facility** implementations.
+These times should be specified by the **Process**, since it defines the **Stage** sequence for the **Cyclo**. The actual amount of time each step, at any time, will require at run time is ultimately defined by the **Cyclo** and **Facility** implementations. This means that all timings should be analyzed as statistical distributions, subject to variations due to **common and special causes** in the **Process**, according to **SPC** (Statistical Process Control) directives.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
