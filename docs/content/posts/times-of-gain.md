@@ -100,8 +100,8 @@ stateDiagram
 
 ### Stage Execution
 
-- As soon as resources are allocated and setup, the **Stage** is executed, according to Demings' **Process** specification.
-- At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state.
+- As soon as resources are allocated and setup, the **Stage** is executed, according to rule three of Deming's **Process** specification.
+- *At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state*.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
 ### Resource Release
@@ -110,7 +110,8 @@ stateDiagram
 - Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
 - Remaining allocated **Resources** should be released to **Facil_Infra** and **Facil_Op**.
 - At Resource release, there may be a delay due to the **Resource Release Time**.
-- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation.
+- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification.
+- *Each Stage cooperates with the next and the previous, seeking optimization*.
 
 ## Stage Timing
  
