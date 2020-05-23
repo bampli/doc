@@ -1,27 +1,28 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Stage Model The Stage model shows below the Facility resources divided into two categories:
- Facil_Infra: includes infrastructure items, like Shop Floor Area, Energy, etc. Facil_Op: includes operational items with Skills, like Tools and Workers.    mermaid.initialize({ flowchart: { useMaxWidth:true } });  classDiagram Planet -- &#34;1..n&#34; Product : has Product -- &#34;1..n&#34; Process : made by Process -- &#34;1..n&#34; Stage : has Stage -- &#34;1..n&#34; Resource : uses Stage -- Stage : previous_next Worker -- &#34;"><meta property="og:title" content="Times of Gain"><meta property="og:description" content="Stage Model The Stage model shows below the Facility resources divided into two categories:
- Facil_Infra: includes infrastructure items, like Shop Floor Area, Energy, etc. Facil_Op: includes operational items with Skills, like Tools and Workers.    mermaid.initialize({ flowchart: { useMaxWidth:true } });  classDiagram Planet -- &#34;1..n&#34; Product : has Product -- &#34;1..n&#34; Process : made by Process -- &#34;1..n&#34; Stage : has Stage -- &#34;1..n&#34; Resource : uses Stage -- Stage : previous_next Worker -- &#34;"><meta property="og:type" content="article"><meta property="og:url" content="https://bampli.github.io/docs/posts/times-of-gain/"><meta property="article:published_time" content="2020-05-17T00:00:00+00:00"><meta property="article:modified_time" content="2020-05-17T00:00:00+00:00"><title>Times of Gain | bAmpli v0.04-11</title><link rel=icon href=/docs/favicon.png type=image/x-icon><link rel=stylesheet href=/docs/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css integrity="sha256-Y+uI2qVFNlQF7NuyEDMoajJcYKNs+m0i0h58O8koaUE="><script defer src=/docs/en.search.min.62208b8f5df885bd0706b84c5c9c4281857d122430bf0160574dfe5e422138ac.js integrity="sha256-YiCLj134hb0HBrhMXJxCgYV9EiQwvwFgV03+XkIhOKw="></script></head><body><input type=checkbox class=hidden id=menu-control><main class="container flex"><aside class=book-menu><nav><h2 class=book-brand><a href=/docs><span>bAmpli v0.04-11</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner spinner hidden"></div><ul id=book-search-results></ul></div><ul></ul><ul><li><a href=/docs/posts/>Blog</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/docs/svg/menu.svg class=book-icon alt=Menu></label>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Stage Model The Stage revised model shows below the Facility resources divided into two categories:
+ FacilityInfra: includes infrastructure items, like Shop Floor Area, Energy, etc. FacilityOp: includes operational items with Skills, like Tools and Workers.    mermaid.initialize({ flowchart: { useMaxWidth:true } });  classDiagram Planet -- &#34;1..n&#34; Product : populated_by Product -- &#34;1..n&#34; Process : made_by Process -- &#34;1..n&#34; Stage : composed_of Stage -- &#34;1..n&#34; Resource : uses Stage -- Stage : previous Stage -- Stage : next Worker -- &#34;"><meta property="og:title" content="Times of Gain"><meta property="og:description" content="Stage Model The Stage revised model shows below the Facility resources divided into two categories:
+ FacilityInfra: includes infrastructure items, like Shop Floor Area, Energy, etc. FacilityOp: includes operational items with Skills, like Tools and Workers.    mermaid.initialize({ flowchart: { useMaxWidth:true } });  classDiagram Planet -- &#34;1..n&#34; Product : populated_by Product -- &#34;1..n&#34; Process : made_by Process -- &#34;1..n&#34; Stage : composed_of Stage -- &#34;1..n&#34; Resource : uses Stage -- Stage : previous Stage -- Stage : next Worker -- &#34;"><meta property="og:type" content="article"><meta property="og:url" content="https://bampli.github.io/docs/posts/times-of-gain/"><meta property="article:published_time" content="2020-05-17T00:00:00+00:00"><meta property="article:modified_time" content="2020-05-17T00:00:00+00:00"><title>Times of Gain | bAmpli v0.04-11</title><link rel=icon href=/docs/favicon.png type=image/x-icon><link rel=stylesheet href=/docs/book.min.63eb88daa545365405ecdbb21033286a325c60a36cfa6d22d21e7c3bc9286941.css integrity="sha256-Y+uI2qVFNlQF7NuyEDMoajJcYKNs+m0i0h58O8koaUE="><script defer src=/docs/en.search.min.bae95d0c2a1a93de4b503d8252ccc8487d220ce949b976253063b58bc1392f98.js integrity="sha256-uuldDCoak95LUD2CUszISH0iDOlJuXYlMGO1i8E5L5g="></script></head><body><input type=checkbox class=hidden id=menu-control><main class="container flex"><aside class=book-menu><nav><h2 class=book-brand><a href=/docs><span>bAmpli v0.04-11</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner spinner hidden"></div><ul id=book-search-results></ul></div><ul></ul><ul><li><a href=/docs/posts/>Blog</a></li></ul></nav><script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/docs/svg/menu.svg class=book-icon alt=Menu></label>
 <strong>Times of Gain</strong>
-<label for=toc-control><img src=/docs/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><input type=checkbox class=hidden id=toc-control><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#stage-model>Stage Model</a></li><li><a href=#stage-resources>Stage Resources</a><ul><li><a href=#resource-allocation>Resource Allocation</a></li><li><a href=#stage-execution>Stage Execution</a></li><li><a href=#resource-release>Resource Release</a></li></ul></li><li><a href=#stage-timing>Stage Timing</a></li></ul></nav></aside></header><article class=markdown><h1><a href=/docs/posts/times-of-gain/>Times of Gain</a></h1><h5>May 17, 2020</h5><div><a href=/docs/tags/how-to-change/>how-to-change</a></div><p><h2 id=stage-model>Stage Model</h2><p>The <strong>Stage</strong> model shows below the <strong>Facility</strong> resources divided into two categories:</p><ul><li><strong>Facil_Infra</strong>: includes infrastructure items, like Shop Floor Area, Energy, etc.</li><li><strong>Facil_Op</strong>: includes operational items with <strong>Skills</strong>, like Tools and Workers.</li></ul><script src=/docs/mermaid.min.js></script><script>mermaid.initialize({flowchart:{useMaxWidth:true}});</script><p class=mermaid>classDiagram
-Planet --> "1..n" Product : has
-Product --> "1..n" Process : made by
-Process --> "1..n" Stage : has
+<label for=toc-control><img src=/docs/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><input type=checkbox class=hidden id=toc-control><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#stage-model>Stage Model</a></li><li><a href=#stage-resources>Stage Resources</a><ul><li><a href=#resource-allocation>Resource Allocation</a></li><li><a href=#stage-execution>Stage Execution</a></li><li><a href=#resource-release>Resource Release</a></li></ul></li><li><a href=#stage-timing>Stage Timing</a></li></ul></nav></aside></header><article class=markdown><h1><a href=/docs/posts/times-of-gain/>Times of Gain</a></h1><h5>May 17, 2020</h5><div><a href=/docs/tags/how-to-change/>how-to-change</a></div><p><h2 id=stage-model>Stage Model</h2><p>The <strong>Stage</strong> revised model shows below the <strong>Facility</strong> resources divided into two categories:</p><ul><li><strong>FacilityInfra</strong>: includes infrastructure items, like Shop Floor Area, Energy, etc.</li><li><strong>FacilityOp</strong>: includes operational items with <strong>Skills</strong>, like Tools and Workers.</li></ul><script src=/docs/mermaid.min.js></script><script>mermaid.initialize({flowchart:{useMaxWidth:true}});</script><p class=mermaid>classDiagram
+Planet --> "1..n" Product : populated_by
+Product --> "1..n" Process : made_by
+Process --> "1..n" Stage : composed_of
 Stage --> "1..n" Resource : uses
-Stage --> Stage : previous_next
-Worker --> "1..n" Skill : has
-Worker --> "0..n" Tool : command
-Tool --> "0..n" Tool : command
-Tool --> "1..n" Skill : has
-Resource <|-- Cyclo
+Stage --> Stage : previous
+Stage --> Stage : next
+Worker --> "1..n" Skill : has_skill
+Worker --> "0..n" Tool : commands
+Tool --> "0..n" Tool : commands
+Tool --> "1..n" Skill : has_skill
+Resource <|-- Cyclo : from_cyclo
 Cyclo <|-- RM : external
 Cyclo <|-- WIP : internal
-Resource <|-- Facility
-Facility <|-- Facil_Infra
-Facil_Infra <|-- Energy
-Facil_Infra <|-- Area
-Facility <|-- Facil_Op
-Facil_Op <|-- Worker
-Facil_Op <|-- Tool
+Resource <|-- Facility : from_facility
+Facility <|-- FacilityInfra : infrastructure
+FacilityInfra <|-- Energy
+FacilityInfra <|-- Area
+Facility <|-- FacilityOp : operation
+FacilityOp <|-- Worker
+FacilityOp <|-- Tool
 Stage --> "1..n" Skill : requires</p><h2 id=stage-resources>Stage Resources</h2><p>When the <strong>Cyclo</strong> is running, each <strong>Stage</strong> should allocate all necessary <strong>Resources</strong> before receiving the &ldquo;green&rdquo; light to be executed. The diagram below shows the allocation, execution and release states for each <strong>Stage</strong>.</p><p class=mermaid>stateDiagram
 [*] --> Resource_Allocation : Cyclo is running
 Resource_Allocation --> Stage_Execution
@@ -29,20 +30,20 @@ Stage_Execution --> Resource_Release
 Resource_Release --> [*]
 state Resource_Allocation {
 [*] --> Cyclo
-[*] --> Facil_Infra
+[*] --> FacilityInfra
 [*] --> Skill
 Cyclo --> RM
 Cyclo --> WIP
 RM --> [*] : rm_ok
 WIP --> [*] : wip_ok
-Facil_Infra --> Energy
-Facil_Infra --> Area
+FacilityInfra --> Energy
+FacilityInfra --> Area
 Energy --> [*] : energy_ok
 Area --> [*] : area_ok
-Skill --> Facil_Op
-Facil_Op --> Tool
+Skill --> FacilityOp
+FacilityOp --> Tool
 Tool --> [*] : tool_skill_ok
-Facil_Op --> Worker
+FacilityOp --> Worker
 Worker --> [*] : worker_skill_ok
 }
 state Stage_Execution {
@@ -52,14 +53,14 @@ state Resource_Release {
 [*] --> WIP
 WIP --> Cyclo : wip_free
 [*] --> Area
-Area --> Facil_Infra : area_free
+Area --> FacilityInfra : area_free
 [*] --> Energy
-Energy --> Facil_Infra : energy_free
+Energy --> FacilityInfra : energy_free
 [*] --> Tool
-Tool --> Facil_Op : tool_skill_free
+Tool --> FacilityOp : tool_skill_free
 [*] --> Worker
-Worker --> Facil_Op : worker_skill_free
-}</p><h3 id=resource-allocation>Resource Allocation</h3><ul><li>From the <strong>Cyclo</strong> may eventually come <strong>RM</strong>, and <strong>WIP</strong> generated at previous <strong>Stage</strong>.</li><li><strong>Infrastructure Resources</strong> are obtained from the <strong>Facility</strong>, like Energy and Shop Floor Area.</li><li>The <strong>Skills</strong> indicate <strong>Operational Resources</strong> to be sought in the <strong>Facility</strong>, like Tools and Workers.</li><li>For each required <strong>Resource</strong>, check its availability. If not available, the <strong>Stage</strong> must wait.</li><li>At Resource allocation, there may be a delay due to the <strong>Resource Allocation Time</strong>.</li><li>Before each Stage execution, there may be a delay due to the <strong>Resource Setup Time</strong>.</li></ul><h3 id=stage-execution>Stage Execution</h3><ul><li>As soon as resources are allocated and setup, the <strong>Stage</strong> is executed, according to rule three of Deming&rsquo;s <strong>Process</strong> specification.</li><li><em>At each <strong>Stage</strong> there is production, that is, something happens in the set of assets that enter a <strong>Stage</strong>, causing their exit in a different state</em>.</li><li>The Stage execution expects to introduce a delay known as the <strong>Stage Execution Time</strong>.</li></ul><h3 id=resource-release>Resource Release</h3><ul><li>After execution, the allocated <strong>Resources</strong> should be freed to be used by other <strong>Stages</strong>.</li><li>Any resulting <strong>WIP</strong> must be released for use in the next <strong>Stage</strong> of the <strong>Cyclo</strong>.</li><li>Remaining allocated <strong>Resources</strong> should be released to <strong>Facil_Infra</strong> and <strong>Facil_Op</strong>.</li><li>At Resource release, there may be a delay due to the <strong>Resource Release Time</strong>.</li><li>Some optimization may prevent <strong>Facility</strong> from eventual unnecessary release/reallocation, according to rule five of Deming&rsquo;s <strong>Process</strong> specification.</li><li><em>Each Stage cooperates with the next and the previous, seeking optimization</em>.</li></ul><h2 id=stage-timing>Stage Timing</h2><p>The timing during the Resource allocation, execution and release is shown below.</p><p class=mermaid>sequenceDiagram
+Worker --> FacilityOp : worker_skill_free
+}</p><h3 id=resource-allocation>Resource Allocation</h3><ul><li>From the <strong>Cyclo</strong> may eventually come <strong>RM</strong>, and <strong>WIP</strong> generated at previous <strong>Stage</strong>.</li><li><strong>Infrastructure Resources</strong> are obtained from the <strong>Facility</strong>, like Energy and Shop Floor Area.</li><li>The <strong>Skills</strong> indicate <strong>Operational Resources</strong> to be sought in the <strong>Facility</strong>, like Tools and Workers.</li><li>For each required <strong>Resource</strong>, check its availability. If not available, the <strong>Stage</strong> must wait.</li><li>At Resource allocation, there may be a delay due to the <strong>Resource Allocation Time</strong>.</li><li>Before each Stage execution, there may be a delay due to the <strong>Resource Setup Time</strong>.</li></ul><h3 id=stage-execution>Stage Execution</h3><ul><li>As soon as resources are allocated and setup, the <strong>Stage</strong> is executed, according to rule three of Deming&rsquo;s <strong>Process</strong> specification.</li><li><em>At each <strong>Stage</strong> there is production, that is, something happens in the set of assets that enter a <strong>Stage</strong>, causing their exit in a different state</em>.</li><li>The Stage execution expects to introduce a delay known as the <strong>Stage Execution Time</strong>.</li></ul><h3 id=resource-release>Resource Release</h3><ul><li>After execution, the allocated <strong>Resources</strong> should be freed to be used by other <strong>Stages</strong>.</li><li>Any resulting <strong>WIP</strong> must be released for use in the next <strong>Stage</strong> of the <strong>Cyclo</strong>.</li><li>Remaining allocated <strong>Resources</strong> should be released to <strong>FacilityInfra</strong> and <strong>FacilityOp</strong>.</li><li>At Resource release, there may be a delay due to the <strong>Resource Release Time</strong>.</li><li>Some optimization may prevent <strong>Facility</strong> from eventual unnecessary release/reallocation, according to rule five of Deming&rsquo;s <strong>Process</strong> specification.</li><li><em>Each Stage cooperates with the next and the previous, seeking optimization</em>.</li></ul><h2 id=stage-timing>Stage Timing</h2><p>The timing during the Resource allocation, execution and release is shown below.</p><p class=mermaid>sequenceDiagram
 autonumber
 rect rgb(0, 0, 255, .3)
 Alloc-->>Setup: Resource Allocation Time
