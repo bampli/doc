@@ -15,32 +15,33 @@ tags: [
 ---
 ## Stage Model
 
-The **Stage** model shows below the **Facility** resources divided into two categories:
+The **Stage** revised model shows below the **Facility** resources divided into two categories:
 
-- **Facil_Infra**: includes infrastructure items, like Shop Floor Area, Energy, etc.
-- **Facil_Op**: includes operational items with **Skills**, like Tools and Workers.
+- **FacilityInfra**: includes infrastructure items, like Shop Floor Area, Energy, etc.
+- **FacilityOp**: includes operational items with **Skills**, like Tools and Workers.
 
 {{< mermaid >}}
 classDiagram
-    Planet --> "1..n" Product : has
-    Product --> "1..n" Process : made by
-    Process --> "1..n" Stage : has
+    Planet --> "1..n" Product : populated_by
+    Product --> "1..n" Process : made_by
+    Process --> "1..n" Stage : composed_of
     Stage --> "1..n" Resource : uses
-    Stage --> Stage : previous_next
-    Worker --> "1..n" Skill : has
-    Worker --> "0..n" Tool : command
-    Tool --> "0..n" Tool : command
-    Tool --> "1..n" Skill : has
-    Resource <|-- Cyclo
+    Stage --> Stage : previous
+    Stage --> Stage : next
+    Worker --> "1..n" Skill : has_skill
+    Worker --> "0..n" Tool : commands
+    Tool --> "0..n" Tool : commands
+    Tool --> "1..n" Skill : has_skill
+    Resource <|-- Cyclo : from_cyclo
     Cyclo <|-- RM : external
     Cyclo <|-- WIP : internal
-    Resource <|-- Facility
-    Facility <|-- Facil_Infra
-    Facil_Infra <|-- Energy
-    Facil_Infra <|-- Area
-    Facility <|-- Facil_Op
-    Facil_Op <|-- Worker
-    Facil_Op <|-- Tool
+    Resource <|-- Facility : from_facility
+    Facility <|-- FacilityInfra : infrastructure
+    FacilityInfra <|-- Energy
+    FacilityInfra <|-- Area
+    Facility <|-- FacilityOp : operation
+    FacilityOp <|-- Worker
+    FacilityOp <|-- Tool
     Stage --> "1..n" Skill : requires
 {{< /mermaid >}}
 
@@ -56,20 +57,20 @@ stateDiagram
     Resource_Release --> [*]
     state Resource_Allocation {
         [*] --> Cyclo
-        [*] --> Facil_Infra
+        [*] --> FacilityInfra
         [*] --> Skill
         Cyclo --> RM
         Cyclo --> WIP
         RM --> [*] : rm_ok
         WIP --> [*] : wip_ok
-        Facil_Infra --> Energy
-        Facil_Infra --> Area
+        FacilityInfra --> Energy
+        FacilityInfra --> Area
         Energy --> [*] : energy_ok
         Area --> [*] : area_ok
-        Skill --> Facil_Op
-        Facil_Op --> Tool
+        Skill --> FacilityOp
+        FacilityOp --> Tool
         Tool --> [*] : tool_skill_ok
-        Facil_Op --> Worker
+        FacilityOp --> Worker
         Worker --> [*] : worker_skill_ok
     }
     state Stage_Execution {
@@ -79,13 +80,13 @@ stateDiagram
         [*] --> WIP
         WIP --> Cyclo : wip_free
         [*] --> Area
-        Area --> Facil_Infra : area_free
+        Area --> FacilityInfra : area_free
         [*] --> Energy
-        Energy --> Facil_Infra : energy_free
+        Energy --> FacilityInfra : energy_free
         [*] --> Tool
-        Tool --> Facil_Op : tool_skill_free
+        Tool --> FacilityOp : tool_skill_free
         [*] --> Worker
-        Worker --> Facil_Op : worker_skill_free
+        Worker --> FacilityOp : worker_skill_free
     }
 {{< /mermaid >}}
 
@@ -108,7 +109,7 @@ stateDiagram
 
 - After execution, the allocated **Resources** should be freed to be used by other **Stages**.
 - Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
-- Remaining allocated **Resources** should be released to **Facil_Infra** and **Facil_Op**.
+- Remaining allocated **Resources** should be released to **FacilityInfra** and **FacilityOp**.
 - At Resource release, there may be a delay due to the **Resource Release Time**.
 - Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification.
 - *Each Stage cooperates with the next and the previous, seeking optimization*.
