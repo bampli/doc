@@ -39,14 +39,12 @@ graph LR
 
 This schema is inspired by the valuable [Datastax graph-book](https://github.com/datastax/graph-book).
 
+## Cyclo API
+
+The [Cyclo API](https://app.swaggerhub.com/apis/motta/bampli) is located at the Business Amplifier project.
+
 ## Cyclo server
 
 **bAmpli Cyclo Control**: Given a Cyclo, start it.
 
 Product (Raw Material) --> Stage --> Stage --> Product (for Sale)
-
-## Cyclo API
-
-The [Cyclo API](https://app.swaggerhub.com/apis/motta/bampli) is located at the Business Amplifier project.
-
-
