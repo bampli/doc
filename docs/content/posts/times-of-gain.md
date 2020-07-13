@@ -101,18 +101,16 @@ stateDiagram
 
 ### Stage Execution
 
-- As soon as resources are allocated and setup, the **Stage** is executed, according to rule three of Deming's **Process** specification.
-- *At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state*.
+- As soon as resources are allocated and setup, the **Stage** is executed, according to rule three of Deming's **Process** specification: *At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state*.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
 ### Resource Release
 
-- After execution, the allocated **Resources** should be freed to be used by other **Stages**.
-- Any resulting **WIP** must be released for use in the next **Stage** of the **Cyclo**.
-- Remaining allocated **Resources** should be released to **FacilityInfra** and **FacilityOp**.
+- After execution, the allocated **Resources** may be freed and become available for other **Stages**.
+- Any resulting **WIP** must be released for the next **Stage** of the **Cyclo**.
+- Remaining Facility allocated **Resources** should be released to **FacilityInfra** and **FacilityOp**.
 - At Resource release, there may be a delay due to the **Resource Release Time**.
-- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification.
-- *Each Stage cooperates with the next and the previous, seeking optimization*.
+- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification: *Each Stage cooperates with the next and the previous, seeking optimization*.
 
 ## Stage Timing
  
@@ -138,7 +136,7 @@ sequenceDiagram
     end
 {{< /mermaid >}}
 
-These times should be specified by the **Process**, since it defines the **Stage** sequence for the **Cyclo**. The actual amount of time each **Stage** will require at run time is ultimately defined by the **Cyclo** and **Facility** implementations. This means that all timing should be analyzed as statistical distributions, subject to variations due to **common and special causes** in the **Process**, according to **SPC** (Statistical Process Control) directives.
+These times should be specified by the **Process**, since it defines the **Stage** sequence for the **Cyclo**. The actual amount of time each **Stage** will require at run time is ultimately defined by the **Cyclo** and **Facility** implementations. All timing should be analyzed as **statistical distributions**, subject to variations due to existing **common** and **special causes** in the **Process**, according to **SPC** (Statistical Process Control) directives.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**

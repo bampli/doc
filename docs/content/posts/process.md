@@ -13,11 +13,11 @@ tags: [
     "to-what-to-change",
 ]
 ---
-Based on the original Deming's process definition:
+According to Deming's process definition created in the '50s:
 
-*The Process would be divided into stages; the work would enter a certain stage, change state and continue, having as client the next stage. The final step would be for the user, buyer of the product or service. At each stage there would be production, that is, something would happen in the assets that enter the stage, causing its exit in a different state.*
+*The Process would be divided into stages; the work would enter a certain stage, change state and continue, having as client the next stage. The final step would be for the user, buyer of the product or service, the main link of the production line. At each stage there would be production, that is, something would happen in the assets that enter the stage, causing its exit in a different state.*
 
-The following rules establish the **Process** specification.
+The original text is converted below in the first nine "gold" rules. Then, a new tenth rule is added, in order to establish the oficial **Process** specification.
 
 ## PROCESS
 

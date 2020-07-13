@@ -83,7 +83,7 @@ classDiagram
     Facility <|-- Area
 {{< /mermaid >}}
 
-The model highlights the following features:
+The **Stage** model highlights the following features:
 
 - The **Planet** has at least one **Product**.
 - Each **Product** has at least one **Process** that leads to its creation.
@@ -91,16 +91,16 @@ The model highlights the following features:
 - The **Stage** must use at least one **Resource**.
 - The **Stage** proceeds to one or more **Stages**, until a  consumer **Product** is reached.
 - The consumer **Product** is the final and more important **Stage**.
-- The **Resource** must be related to the **Cyclo** or to the **Facility**.
-- The **Cyclo Resource** shall be **Raw Material (RM)** or **Work in Process (WIP)**.
+- The **Resource** is related to the **Cyclo** or to the **Facility**.
+- The **Cyclo Resource** may be **Raw Material (RM)** or **Work in Process (WIP)**.
 - **RM** is an **external** resource, and it is also a **Product** coming from another **Process**.
-- **WIP** is an **internal Process** resource, still subject to  transformations.
-- The **Facility** has resources like **Worker**, **Tool**, **Area**, and **Energy**, among other.
+- **WIP** is an **internal** Process resource, still subject to  transformation.
+- The **Facility** resources are **Worker**, **Tool**, **Area**, and **Energy**, among others.
 - Both **Worker** and **Tool** have at least one **Skill**.
 - **Worker** & **Tool** may handle a **Tool** with a **Command**, but this is not mandatory.
-- The **Stage** requires at least one **Skill**, satisfied by a **Worker** or **Tool** resource attached to it.
+- The **Stage** requires at least one **Skill**, to be satisfied by **Worker** and/or **Tool** resources.
 
-In order to audit a Process and certify that it is able to run, the information system shall follow all its Stages, and check if the corresponding Skills are being satisfied by the Facility implementation. Attached Worker and Tool resources must permanently comply with the required Stage expertise, in order the Process may keep running.
+At run time, it is necessary to audit the Process and certify that the Cyclo is able to run. Every Stage Skill demanded by the Process specification should be satisfied in due time by the Facility implementation. Worker and Tool resources must permanently comply with the required Stage expertise, in order the Process may keep running, and generating Gain.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**
