@@ -2,6 +2,7 @@
 title: Without ToC
 weight: 1
 bookToc: false
+bookHidden: true
 ---
 
 # At me ipso nepotibus nunc celebratior genus
