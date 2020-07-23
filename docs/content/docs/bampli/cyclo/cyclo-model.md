@@ -30,6 +30,7 @@ class CycloSpin(object):
         self.spin_unit = data.get('spin_unit', '#/t')
         self.reading_time = format_timestamp(data.get('reading_time'))
 ```
+
 ## Stage
 
 ```python
@@ -42,3 +43,13 @@ class Stage(object):
         self.spin = float(data.get('spin'))
         self.spin_unit = data.get('spin_unit', '#/t')
         self.reading_time = format_timestamp(data.get('reading_time'))
+```
+
+## Product
+
+```python
+class Product(object):
+
+    def __init__(self, product_name):
+        self.product_name = product_name
+```
