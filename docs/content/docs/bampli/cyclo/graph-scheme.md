@@ -8,7 +8,7 @@ The Cyclo graph scheme has **Product** and **Stage** vertices and a bidirecional
 
 ![cyclo-v1-schema](https://user-images.githubusercontent.com/86032/86792421-dad42e80-c040-11ea-98c6-7e7f324c8d1b.jpg)
 
-```console
+```groovy
 // cyclo-v1-schema
 schema.vertexLabel('Stage').
        ifNotExists().
@@ -48,8 +48,9 @@ schema.edgeLabel('sendW').
        create()
 ```
 More details are shown at the links below:
-- [Cyclo-v1 Schema](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.groovy) is provided for the Cyclo graph
-- Also a [CQL Schema](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.cql) for Cassandra NoSQL database 
+- [Cyclo-v1](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.groovy) schema is provided for the Cyclo graph.
+- Also a [CQL](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.cql) schema for Cassandra NoSQL. 
+- This preliminar schema is inspired by the Datastax [graph-book](https://github.com/datastax/graph-book).
 
 ## P&Q Factory Cyclo
 
@@ -67,8 +68,6 @@ graph LR
 It is also represented according to the product and stage vertices, as shown below:
 
 ![p q-graph](https://user-images.githubusercontent.com/86032/86799006-d2332680-c047-11ea-8d02-9da1042c1e51.png)
-
-This schema is inspired by the valuable [Datastax graph-book](https://github.com/datastax/graph-book).
 
 ## Cyclo API
 
