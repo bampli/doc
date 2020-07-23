@@ -2,7 +2,7 @@
 weight: 10
 ---
 
-## Cyclo
+# Cyclo
 
 To assist investors and managers in decision-making toward the global optimum, relationships between process stages, suppliers and consumers need to be further deepened. How to provide first-class support for long-term trusts? Reminding William Deming´s process specification:
 

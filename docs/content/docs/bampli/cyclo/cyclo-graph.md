@@ -1,29 +1,25 @@
 ---
-title: Graph scheme
+title: Graph
 weight: 10
 ---
-## Graph scheme
+# Graph
 
-The Cyclo graph scheme has **Product** and **Stage** vertices and a bidirecional **sendW** edge. The raw material products enter the process, and become work-in-process assets that move from one stage to another until the final product is obtained.
+The Cyclo graph has **Product** and **Stage** vertices and a bidirecional **sendW** edge.
 
 ![cyclo-v1-schema](https://user-images.githubusercontent.com/86032/86792421-dad42e80-c040-11ea-98c6-7e7f324c8d1b.jpg)
+
+The raw material is a product that enters the process through a stage. Then, it becomes a work-in-process (wip) asset that moves from one stage to another, until the final product is obtained. The sendW edge expects to carry **wips** along the production flow, clustered by **timestep** property.
 
 ```groovy
 // cyclo-v1-schema
 schema.vertexLabel('Stage').
        ifNotExists().
        partitionBy('stage_name', Text).
-       property('latitude', Double).
-       property('longitude', Double).
-       property('coordinates', Point).
        create();
 
 schema.vertexLabel('Product').
        ifNotExists().
        partitionBy('product_name', Text).
-       property('latitude', Double).
-       property('longitude', Double).
-       property('coordinates', Point).
        create();
 
 schema.edgeLabel('sendW').
@@ -31,21 +27,21 @@ schema.edgeLabel('sendW').
        from('Stage').
        to('Stage').
        clusterBy('timestep', Int, Desc).
-       create()
+       create();
 
 schema.edgeLabel('sendW').
        ifNotExists().
        from('Stage').
        to('Product').
        clusterBy('timestep', Int, Desc).
-       create()
+       create();
 
 schema.edgeLabel('sendW').
        ifNotExists().
        from('Product').
        to('Stage').
        clusterBy('timestep', Int, Desc).
-       create()
+       create();
 ```
 More details are shown at the links below:
 - [Cyclo-v1](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.groovy) schema is provided for the Cyclo graph.
