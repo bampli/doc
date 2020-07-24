@@ -8,7 +8,7 @@ The Cyclo graph has **Product** and **Stage** vertices and a bidirecional **send
 
 ![cyclo-v1-schema](https://user-images.githubusercontent.com/86032/86792421-dad42e80-c040-11ea-98c6-7e7f324c8d1b.jpg)
 
-The raw material is a product that enters the process through a stage. Then, it becomes a work-in-process (wip) asset that moves from one stage to another, until the final product is obtained. The sendW edge expects to carry **wips** along the production flow, clustered by **timestep** property.
+The raw material is a product that enters the process through a stage. Then, it becomes a work-in-process (wip) asset that is sent from one stage to another, until the final product is obtained. The sendW edge expects to carry **wips** along the production flow, clustered by **timestep**.
 
 ```groovy
 // cyclo-v1-schema
@@ -20,6 +20,9 @@ schema.vertexLabel('Stage').
 schema.vertexLabel('Product').
        ifNotExists().
        partitionBy('product_name', Text).
+       property('latitude', Double).
+       property('longitude', Double).
+       property('coordinates', Point).
        create();
 
 schema.edgeLabel('sendW').
@@ -44,9 +47,9 @@ schema.edgeLabel('sendW').
        create();
 ```
 More details are shown at the links below:
-- [Cyclo-v1](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.groovy) schema is provided for the Cyclo graph.
-- Also a [CQL](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.cql) schema for Cassandra NoSQL. 
-- This preliminar schema is inspired by the Datastax [graph-book](https://github.com/datastax/graph-book).
+- [Cyclo-v1](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.groovy) schema generated in Gremlin for the Cyclo graph.
+- Corresponding [CQL](https://github.com/bampli/bampli/blob/master/datastax/models/cyclo-v1-schema.cql) schema for Cassandra. 
+- The schema is inspired by the Datastax [graph-book](https://github.com/datastax/graph-book).
 
 ## P&Q Factory Cyclo
 
