@@ -1,8 +1,8 @@
 ---
-title: Graph
+title: Cyclo Graph
 weight: 10
 ---
-# Graph
+# Cyclo Graph
 
 The Cyclo graph has **Product** and **Stage** vertices and a bidirecional **sendW** edge.
 

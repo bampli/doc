@@ -1,8 +1,8 @@
 ---
-title: Service
+title: Cyclo Service
 weight: 30
 ---
-# Service
+# Cyclo Service
 
 ## CycloService
 

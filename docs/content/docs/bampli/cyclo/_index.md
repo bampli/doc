@@ -4,18 +4,20 @@ weight: 10
 
 # Cyclo
 
-To assist investors and managers in decision-making toward the global optimum, relationships between process stages, suppliers and consumers need to be further deepened. How to provide first-class support for long-term trusts? Reminding William Deming´s process specification:
+To assist investors and managers in decision-making toward the global optimum, relationships between process stages, suppliers and consumers need to be further deepened. How to provide first-class support for long-term trusts? Based on a fundamental concept introduced by William Deming's process specification:
 
 - **This is what I can do for you; here's what you can do for me.**
 
-The process stages do not have a one-time-and-done behavior and a sequence is repeated endlessly for each new product! Assets always enter in a stage, are processed for some time and go to the next stage. The process acts as n-stroke engine or n-pole generator, where n is the number of process stages. Consider that the process specification also states that:
+Also considering that the process stages do not have a one-time-and-done behavior, but a endlessly sequence, repeated for each new product during the working time. An asset always enters in a stage, is processed for some time and goes to the next stage. The process acts as n-stroke engine or n-pole generator, where "n" is the number of process stages.
 
-- **The process consumes products of nature, transforming them into products of nature**.
+Consider also that the **Process** emphasizes the sustainability, as follows:
+
+- **The process consumes products of nature, and transform them into other products of nature**.
 
 In fact, this rule is nothing new. Raw materials are eventually purchased and entered into a process that generates products for sale. Joining both
-ends of the process with the Earth, everything comes out of Earth, everything comes back to Earth. Products are bought, treated, combined and become other products to be sold. Each stage individually contributes to keep the process cycle spinning. Together, they  should keep up the pace, the teamwork can't stop. The time taken by the slowest stage is what determines the performance of the process cycle, in this case, the spin or angular speed.
+ends of the process, everything comes out of Earth, everything comes back to Earth.
 
-**Spin**? What turns? See in the diagram that **products** and **money** cycle in opposite directions.
+Products are bought, processed, combined and become other products to be sold. Each stage individually contributes to keep the process cycle spinning. Together, they  should keep up the pace, the teamwork can't stop. The timing determines the **Cyclo** performance, in this case, the spin or angular speed. **Spin**? What turns? See in the diagram that **products** and **money** cycle in opposite directions.
 
 ![Y3 1 Cyclo bw](https://user-images.githubusercontent.com/86032/79046804-5dd41d00-7be9-11ea-9239-780095caaffb.png)
 

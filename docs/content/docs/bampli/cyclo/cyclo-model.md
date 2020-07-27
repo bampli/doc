@@ -1,8 +1,8 @@
 ---
-title: Model
+title: Cyclo Model
 weight: 20
 ---
-# Model
+# Cyclo Model
 
 ## CycloJourneyCatalog
 
