@@ -25,7 +25,7 @@ At the top, Earth's first green arrow to “Sn” indicates the money from the c
 
 On the other hand, the outer blue arrows leaving Earth to "S1" represent assets traversing the path in the opposite direction. Raw materials are purchased, enter into the process, and become products that the company intends to sell.
 
-The Stages depend on each other to keep both streams spinning simultaneously:
+**Stages** depend on each other to keep both streams spinning simultaneously:
 
 - Money from selling products to the market by remunerating suppliers.
 - Assets collected in the market being transformed into products sold;

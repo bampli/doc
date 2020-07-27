@@ -5,14 +5,14 @@ bookToc: false
 ---
 # Times of Gain
 
-The following rules add more details to the **Process** psecification:
+The following rules add more details to the **Process** specification:
 
 - Connected as a **Cyclo**, the **Process** is specified by the timing of its **Stages**.
-- The **Stages** allocate **Resources** from the **Facility** to accomplish its task.
+- The **Stage** allocates **Resources** from the **Facility** to accomplish its task.
 - Every **Stage** requires **Skills** to accomplish its task.
 - The **Skill** is provided by a combination of **Workers** and/or **Tools**.
-- The **Stages** also allocate **Resources** from the **Cyclo** to accomplish its task.
-- The **Cyclo** provides management for **RM** and **WIP** flowing through **Stages**.
+- The **Stage** also allocates **Resources** from the **Cyclo** to accomplish its task.
+- The **Cyclo** provides management for **RM** and **WIP** flows through the **Stages**.
 
 ## Stage Model
 
@@ -95,11 +95,10 @@ stateDiagram
 
 - From the **Cyclo** may eventually come **RM** and/or **WIP** generated previously.
 - **Infrastructure** are **Resources** supported by the **Facility**, like Energy and Shop Floor Area.
-- The **Skills** indicate the **Operational Resources** to be sought in the **Facility**, like Tools and Workers.
+- The **Skills** indicate **Operational Resources** to be sought in the **Facility**, like Tools and Workers.
 - For each required **Resource**, check its availability. If not available, the **Stage** must wait.
-- At **Resource** allocation, there may be a delay due to the **Resource Allocation Time**.
-- Before each **Stage** execution, there may be a delay due to the **Stage Setup Time**.
-- At **Resource** release, there may be a delay due to the **Resource Release Time**.
+- At **Resource** allocation phase, there may be a delay due to the **Resource Allocation Time**.
+- Before each **Stage** execution phase, there may be a delay due to the **Stage Setup Time**.
 
 ### Stage Execution
 
@@ -111,8 +110,9 @@ stateDiagram
 - After execution, the allocated **Resources** may be freed and become available for other **Stages**.
 - Any resulting **WIP** must be released for the next **Stage** of the **Cyclo**.
 - Remaining Facility allocated **Resources** should be released to **FacilityInfra** and **FacilityOp**.
-- At Resource release, there may be a delay due to the **Resource Release Time**.
-- Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification: *Each Stage cooperates with the next and the previous, seeking optimization*.
+- At **Resource** release phase, there may be a delay due to the **Resource Release Time**.
+
+Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification: *Each Stage cooperates with the next and the previous, seeking optimization*.
 
 ## Stage Timing
  
