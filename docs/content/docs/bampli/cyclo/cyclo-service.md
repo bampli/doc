@@ -24,13 +24,13 @@ weight: 30
 - check_connection(self)
 - get_cyclo_journey_catalog_dao(self)
 - get_cyclo_spin_dao(self)
-- create_new_journey_for_cyclo(self, cyclo_name, journey_id,
-                               start, end, active, summary)
+- create_new_journey_for_cyclo(
+    self, cyclo_name, journey_id, start, end, active, summary)
 - get_all_cyclo_journeys(self)
 - get_all_journeys_for_cyclo(self, cyclo_name)
 - get_single_journey_for_cyclo(self, cyclo_name, journey_id)
-- get_spin_readings_for_cyclo_journey(self, cyclo_name,
-                                      journey_id, page_size, page_state)
-- save_spin_reading_for_cyclo_journey(self, cyclo_name, stage_name,
-                                      journey_id, data)
+- get_spin_readings_for_cyclo_journey(
+    self, cyclo_name, journey_id, page_size, page_state)
+- save_spin_reading_for_cyclo_journey(
+    self, cyclo_name, stage_name, journey_id, data)
 ```

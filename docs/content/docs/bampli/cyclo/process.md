@@ -5,11 +5,11 @@ bookToc: false
 ---
 # Process
 
-Based on William Deming's process definition created in the '50s:
+Based on William Deming's process specification created in the '50s:
 
 *The Process would be divided into stages; the work would enter a certain stage, change state and continue, having as client the next stage. The final step would be for the user, buyer of the product or service, the main link of the production line. At each stage there would be production, that is, something would happen in the assets that enter the stage, causing its exit in a different state.*
 
-This original specification is converted into the first nine rules. Then, the oficial **Process** specification is obtained adding a new tenth rule that emphasizes sustainability.
+Below, the original specification is converted into the first nine rules. Then, the oficial **Process** specification is obtained adding a new tenth rule that emphasizes sustainability.
 
 ## PROCESS
 

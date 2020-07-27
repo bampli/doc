@@ -9,7 +9,8 @@ weight: 20
 ```python
 class CycloJourneyCatalog(object):
 
-    def __init__(self, cyclo_name, journey_id, start, end, active, summary):
+    def __init__(self, cyclo_name, journey_id,
+                 start, end, active, summary):
         self.cyclo_name = cyclo_name
         self.journey_id = uuid_from_string(journey_id)
         self.start = format_timestamp(start)
@@ -28,7 +29,7 @@ class CycloSpin(object):
         self.journey_id = uuid_from_string(journey_id)
         self.spin = float(data.get('spin'))
         self.spin_unit = data.get('spin_unit', '#/t')
-        self.reading_time = format_timestamp(data.get('reading_time'))
+        self.reading_time = format_timestamp()
 ```
 
 ## Stage
@@ -42,7 +43,7 @@ class Stage(object):
         self.timestep
         self.spin = float(data.get('spin'))
         self.spin_unit = data.get('spin_unit', '#/t')
-        self.reading_time = format_timestamp(data.get('reading_time'))
+        self.reading_time = format_timestamp()
 ```
 
 ## Product
@@ -50,9 +51,10 @@ class Stage(object):
 ```python
 class Product(object):
 
-    def __init__(self, product_name, latitude, longitude, coordinates):
+    def __init__(self, product_name,
+                 latitude, longitude, coordinates):
         self.product_name
         self.latitude
         self.longitude
-        self.coordinates 'org.apache.cassandra.db.marshal.PointType'
+        self.coordinates
 ```

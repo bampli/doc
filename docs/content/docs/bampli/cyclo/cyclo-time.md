@@ -5,7 +5,7 @@ bookToc: false
 ---
 # Times of Gain
 
-The following rules define the **Process**:
+The following rules add more details to the **Process** psecification:
 
 - Connected as a **Cyclo**, the **Process** is specified by the timing of its **Stages**.
 - The **Stages** allocate **Resources** from the **Facility** to accomplish its task.
