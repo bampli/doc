@@ -8,6 +8,7 @@ bookToc: false
 The following rules add more details to the **Process** specification:
 
 - Connected as a **Cyclo**, the **Process** is specified by the timing of its **Stages**.
+- **Stages** consumes **Resources**, both from **Facility** and from **Cyclo**.
 - The **Stage** allocates **Resources** from the **Facility** to accomplish its task.
 - Every **Stage** requires **Skills** to accomplish its task.
 - The **Skill** is provided by a combination of **Workers** and/or **Tools**.
@@ -98,18 +99,18 @@ stateDiagram
 - The **Skills** indicate **Operational Resources** to be sought in the **Facility**, like Tools and Workers.
 - For each required **Resource**, check its availability. If not available, the **Stage** must wait.
 - At **Resource** allocation phase, there may be a delay due to the **Resource Allocation Time**.
-- Before each **Stage** execution phase, there may be a delay due to the **Stage Setup Time**.
+- Before each **Stage** execution, there may be a delay due to the **Stage Setup Time**.
 
 ### Stage Execution
 
-- As soon as resources are allocated and setup, the **Stage** is executed, according to rule three of Deming's **Process** specification: *At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state*.
+- **Stages** execute transformations according to Deming's **Process** specification: *At each **Stage** there is production, that is, something happens in the set of assets that enter a **Stage**, causing their exit in a different state*.
 - The Stage execution expects to introduce a delay known as the **Stage Execution Time**.
 
 ### Resource Release
 
-- After execution, the allocated **Resources** may be freed and become available for other **Stages**.
+- After execution, allocated **Resources** are freed, and become available for other **Stages**.
 - Any resulting **WIP** must be released for the next **Stage** of the **Cyclo**.
-- Remaining Facility allocated **Resources** should be released to **FacilityInfra** and **FacilityOp**.
+- **Resources** allocated from the Facility should be released to **FacilityInfra** and **FacilityOp**.
 - At **Resource** release phase, there may be a delay due to the **Resource Release Time**.
 
 Some optimization may prevent **Facility** from eventual unnecessary release/reallocation, according to rule five of Deming's **Process** specification: *Each Stage cooperates with the next and the previous, seeking optimization*.
