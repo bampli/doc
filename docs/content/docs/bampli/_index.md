@@ -1,7 +1,7 @@
 ---
+weight: 1
+bookFlatSection: true
 title: "Business Amplifier"
-bookFlatSection: false
-weight: 20
 ---
 
 ## bAmpli: Business Amplifier

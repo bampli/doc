@@ -1,6 +1,4 @@
 ---
-title: "Cyclo"
-bookFlatSection: false
 weight: 10
 ---
 
