@@ -1,5 +1,7 @@
 ---
-weight: 10
+title: "Cyclo"
+bookFlatSection: false
+weight: 20
 ---
 
 # Cyclo
