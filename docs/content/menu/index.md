@@ -12,8 +12,8 @@ headless: true
 <br />
 
 - **Shortcodes**
-- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
 - [Columns]({{< relref "/docs/shortcodes/columns" >}})
+- [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
 - [Expand]({{< relref "/docs/shortcodes/expand" >}})
 - [Hints]({{< relref "/docs/shortcodes/hints" >}})
 - [Katex]({{< relref "/docs/shortcodes/katex" >}})
