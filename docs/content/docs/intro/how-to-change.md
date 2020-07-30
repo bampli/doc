@@ -12,4 +12,4 @@ The challenge of creating a system to explore one bottleneck at a time would be 
 
 ![Y 1 3 P Q Combo](https://user-images.githubusercontent.com/86032/79045923-26af3d00-7be4-11ea-936e-40481471f16f.png)
 
-See more details [here](/docs/tags/how-to-change/).
+See more details [here](/tags/how-to-change/).

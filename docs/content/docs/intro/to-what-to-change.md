@@ -14,4 +14,4 @@ In the 80's, Eli Goldratt, author of the literary success "The Goal", brought We
 
 These initiatives had so far brought together strong and valuable allies. Incorporating concepts originated from **SPC**, **JIT**, **TPM**, and **TOC** leads to one of the most powerful combinations of decision support tools ever assembled in history.
 
-See more details [here](/docs/tags/to-what-to-change/).
+See more details [here](/tags/to-what-to-change/).
