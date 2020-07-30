@@ -6,7 +6,7 @@ bookToc: false
 
 # Ampli Business. It makes sense.
 
-{{< hint warning >}}
+{{< hint info >}}
 **At every level, at any time, investors and managers have a global vision of the organization, and its role in globalization.**
 {{< /hint >}}
 
