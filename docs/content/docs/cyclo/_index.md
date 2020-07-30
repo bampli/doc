@@ -1,7 +1,7 @@
 ---
 title: "Cyclo"
 bookFlatSection: false
-weight: 20
+weight: 50
 ---
 
 # Cyclo
@@ -12,7 +12,7 @@ To assist investors and managers in decision-making toward the global optimum, r
 
 Also considering that the process stages do not have a one-time-and-done behavior, but a endlessly sequence, repeated for each new product during the working time. An asset always enters in a stage, is processed for some time and goes to the next stage. The process acts as n-stroke engine or n-pole generator, where "n" is the number of process stages.
 
-Consider also that the **Process** emphasizes the sustainability, as follows:
+The **Process** definition also emphasizes sustainability, as follows:
 
 - **The process consumes products of nature, and transform them into other products of nature**.
 
