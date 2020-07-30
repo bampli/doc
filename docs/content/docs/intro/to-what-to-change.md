@@ -1,8 +1,8 @@
 ---
-title: To what to change
+title: To what to change?
 weight: 20
 ---
-# To what to change
+# To what to change?
 
 Every 30 years, since the invention of Henry Ford's **factory process** one century ago in 1920, there have been major transformations in process management.
 

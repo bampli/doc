@@ -1,8 +1,8 @@
 ---
-title: How to change
+title: How to change?
 weight: 30
 ---
-# How to change
+# How to change?
 
 To tackle current problems head-on, it is necessary to avoid wasting energy by managing conflicts between competing departments, companies, countries, continents, and so on. How to provide first-class support for **long-term trusts**, according to Deming's rules?
 

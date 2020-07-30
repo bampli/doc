@@ -1,8 +1,8 @@
 ---
-title: What to change
+title: What to change?
 weight: 10
 ---
-# What to change
+# What to change?
 
 The decision-making of all companies has been solely based on **conflict management**. The problem starts with the structure of organizations, where  information and decision flow through a hierarchical **pyramid structure**.
 
