@@ -1,5 +1,5 @@
 ---
-title: "Business Amplifier"
+title: "Business Amplifiers"
 bookFlatSection: false
 weight: 20
 ---
@@ -14,5 +14,4 @@ The role of the Administration is to confront **Plan** & **Reality**, promoting 
 
 **Administration** has positive and negative inputs. The Cyclo is something expected to happen, which means the positive input. If reality reveals a disparity at the negative input, an action must be taken. For example, when Gain is negative, it is necessary to inject Investment, in order to keep Cyclo spinning.
 
-
-
+See more details [here](/docs/posts/indicators/).

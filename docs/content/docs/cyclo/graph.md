@@ -8,7 +8,7 @@ The Cyclo graph has **Product** and **Stage** vertices and a bidirecional **send
 
 ![cyclo-v1-schema](https://user-images.githubusercontent.com/86032/86792421-dad42e80-c040-11ea-98c6-7e7f324c8d1b.jpg)
 
-The raw material is a product that enters the process through a stage. Then, it becomes a work-in-process (wip) asset that is sent from one stage to another, until the final product is obtained. The sendW edge expects to carry **wips** along the production flow, clustered by **timestep**.
+The raw material is a product that enters the process through a stage. Then, it becomes a work-in-process (wip) asset that is sent from one stage to another, until the final product is obtained. The sendW edge expects to send **WIPs** along the production flow, clustered by **timestep**.
 
 ```groovy
 // cyclo-v1-schema

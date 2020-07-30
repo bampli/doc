@@ -13,7 +13,7 @@ The following rules add more details to the **Process** specification:
 - Every **Stage** requires **Skills** to accomplish its task.
 - The **Skill** is provided by a combination of **Workers** and/or **Tools**.
 - The **Stage** also allocates **Resources** from the **Cyclo** to accomplish its task.
-- The **Cyclo** provides management for **RM** and **WIP** flows through the **Stages**.
+- The **Cyclo** supports **RM** and **WIP** flows through the **Stages**.
 
 ## Stage Model
 
@@ -28,7 +28,7 @@ classDiagram
     Product --> "1..n" Process : made_by
     Process --> "1..n" Stage : composed_of
     Stage --> "1..n" Resource : allocates
-    Stage --> Stage : next
+    Stage --> Stage : previous_next
     Worker --> "1..n" Skill : has_skill
     Worker --> "0..n" Tool : commands
     Tool --> "0..n" Tool : commands
