@@ -1,4 +1,5 @@
 ---
 bookFlatSection: false
-bookHidden: true
+
 ---
+bookHidden: true
