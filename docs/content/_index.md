@@ -6,7 +6,7 @@ bookToc: false
 
 # Ampli Business. It makes sense.
 
-{{< hint info >}}
+{{< hint warning >}}
 **At every level, at any time, investors and managers have a global vision of the organization, and its role in globalization.**
 {{< /hint >}}
 
@@ -27,6 +27,6 @@ The bAmpli circuit allows analyzing each Cyclo separately.
 
 {{< /columns >}}
 
-{{< hint info >}}
+{{< hint warning >}}
 **Information about this project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009) in Portuguese.**
 {{< /hint >}}
