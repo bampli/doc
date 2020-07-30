@@ -1,14 +1,7 @@
 ---
-menu:
-  after:
-    name: cyclo
-    weight: 20
-title: Cyclo
----
----
 title: "Cyclo"
 bookFlatSection: false
-weight: 10
+weight: 20
 ---
 
 # Cyclo

@@ -1,15 +1,15 @@
 ---
 title: The Process
-weight: 4
+weight: 15
 bookToc: false
 ---
 # The Process
 
-Inspired on William Deming's process specification from the '50s that states:
+Starting from William Deming's process specification from the '50s that states:
 
 *The Process would be divided into stages; the work would enter a certain stage, change state and continue, having as client the next stage. The final step would be for the user, buyer of the product or service, the main link of the production line. At each stage there would be production, that is, something would happen in the assets that enter the stage, causing its exit in a different state.*
 
-The **Process** reflects this specificatioin in the first nine rules and adds a new tenth rule to emphasize sustainability.
+This **Process** is then reflected into the first nine rules below. A new tenth rule is added to emphasize sustainability.
 
 ## PROCESS
 
@@ -32,7 +32,7 @@ The **Process** reflects this specificatioin in the first nine rules and adds a 
 - Each Stage shall incorporate a process of continuous improvement, or kaizen;
 - With the assistance of SPC, JIT, TPM and TOC, management shall establish operational definitions related to the Process;
 - Management should perform sampling, measurement and control charts that assess the quality of production;
-- An extra tenth rule is added to Deming's definition, in order to clarify that a cyclic behavior is expected. Actually, it is a consequence of rules six and seven.
+- An extra tenth rule is added to Deming's definition, in order to clarify that a cyclic behavior is expected. Actually, this is a consequence of rules six and seven.
 
 {{< hint info >}}
 **This project is published in [Business Amplifier](https://www.amazon.com/Business-Amplifier-M-Sc-Motta-Lopes/dp/B083XGK14Q), also [e-book](https://www.amazon.com/Business-Amplifier-Jose-Motta-Lopes-ebook-dp-B086L6V6QY/dp/B086L6V6QY/) and [Amplificador de Negócios](https://www.amazon.com/M-Sc-Jose-Motta-Lopes/dp/8592301009).**

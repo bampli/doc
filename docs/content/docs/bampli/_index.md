@@ -1,20 +1,7 @@
 ---
 title: "Business Amplifier"
 bookFlatSection: false
-weight: 20
----
-
----
-menu:
-  after:
-    name: bampli
-    weight: 30
-title: bAmpli
----
----
-title: "Business Amplifier"
-bookFlatSection: false
-weight: 20
+weight: 40
 ---
 
 ## bAmpli: Business Amplifier

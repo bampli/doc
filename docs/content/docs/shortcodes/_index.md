@@ -1,12 +1,14 @@
 ---
-menu:
-  after:
-    name: shortcodes
-    weight: 40
-title: Shortcodes
----
----
 bookFlatSection: false
 weight: 30
----
 bookHidden: true
+---
+
+
+---
+menu:
+  after:
+    name: bampli
+    weight: 30
+title: bAmpli
+---
