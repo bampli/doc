@@ -4,19 +4,6 @@ bookFlatSection: false
 weight: 20
 ---
 
----
-menu:
-  after:
-    name: bampli
-    weight: 30
-title: bAmpli
----
----
-title: "Business Amplifier"
-bookFlatSection: false
-weight: 20
----
-
 ## bAmpli: Business Amplifier
 
 The Plan consists of managing a **Cyclo** feeding the **bAmpli** with its respective **Gain**. The "**+**" symbol at the top represents the investor. In addition to the Plan, the system also captures the naked Reality.
