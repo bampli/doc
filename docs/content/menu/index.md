@@ -12,7 +12,7 @@ headless: true
 <br />
 
 - **Shortcodes**
-- [Columns]({{< relref "/docs/shortcodes/columns" >}})
+- [xColumns]({{< relref "/docs/shortcodes/columns" >}})
 - [Buttons]({{< relref "/docs/shortcodes/buttons" >}})
 - [Expand]({{< relref "/docs/shortcodes/expand" >}})
 - [Hints]({{< relref "/docs/shortcodes/hints" >}})
