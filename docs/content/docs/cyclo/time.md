@@ -28,7 +28,6 @@ classDiagram
     Product --> "1..n" Process : made_by
     Process --> "1..n" Stage : composed_of
     Stage --> "1..n" Resource : allocates
-    Stage --> Stage : previous
     Stage --> Stage : next
     Worker --> "1..n" Skill : has_skill
     Worker --> "0..n" Tool : commands
