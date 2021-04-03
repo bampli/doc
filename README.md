@@ -6,4 +6,4 @@
 
 ### This repo is deprecated.
 - Docs & Specs moved to Netlify: https://bampli.netlify.app/
-- Source? https://github.com/bampli/specs
+- Source: https://github.com/bampli/specs
